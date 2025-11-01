@@ -12,7 +12,7 @@
 </p>
 
 
-Este projeto consiste no desenvolvimento de um Sistema Integrado de Gestão para um mercado, abrangendo os processos essenciais de entrada (compras) e saída (vendas), utilizando Windows Forms para a interface e SQL Server para o banco de dados. O desenvolvimento é realizado em grupo por 40 alunos do 2°DS da Etec Fernando Prestes, simulando um ambiente real de trabalho.
+Este projeto consiste no desenvolvimento de um Sistema Integrado de Gestão para um mercado fictício (Merchades), abrangendo os processos essenciais de entrada (compras) e saída (vendas), utilizando Windows Forms para a interface e SQL Server para o banco de dados. O desenvolvimento é realizado em grupo por 40 alunos do 2°DS da Etec Fernando Prestes, simulando um ambiente real de trabalho.
 
 
 
