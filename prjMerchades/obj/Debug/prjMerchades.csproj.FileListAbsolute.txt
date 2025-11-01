@@ -1,0 +1,682 @@
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDISaida.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDISaida.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\Luizin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDISaida.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\sabin\OneDrive\Área de Trabalho\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDISaida.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\Rangelss\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDISaida.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\ryanr\Documents\Códigos\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmMenuSaida.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\Merchades.formAdicionaProduto.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\Merchades.formNotaFiscal.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\Merchades.formPagamento.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\Merchades.formProdutos.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\Merchades.formVendas.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.ResourcesSaida.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\Merchades.formMenu.resources
+C:\Users\sabin\Downloads\entrada\prjMerchades\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Financeiro.frmRelFinanceiro.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Financeiro.frmRelFinanceiro.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmMenuSaida.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formAdicionaProduto.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formMenu.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formNotaFiscal.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formPagamento.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formProdutos.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.ResourcesSaida.resources
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\Nat\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\LabInfo\source\repos\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\LabInfo\source\repos\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\LabInfo\source\repos\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\LabInfo\source\repos\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe.config
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\prjMerchades.exe
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\prjMerchades.pdb
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\EnvDTE.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.AssemblyReference.cache
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe.config
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCadFornecedor.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmCompras.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmEstoque.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Entrada.frmListagemFornecedor.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Financeiro.frmRelFinanceiro.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmMenuSaida.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Login.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIEntrada.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.MDIFinanceiro.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formAdicionaProduto.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formMenu.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formNotaFiscal.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formPagamento.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\Merchades.formProdutos.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.SplashScreen.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.Resources.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.ResourcesSaida.resources
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.GenerateResource.cache
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.csproj.CoreCompileInputs.cache
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerch.B26AA8EB.Up2Date
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.exe
+C:\Users\LabInfo\Desktop\prjMerchades\prjMerchades\obj\Debug\prjMerchades.pdb
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.Financeiro.frmRelFinanceiro.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmExibirNotaFiscal.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Formularios.frmMenuSaida.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\prjMerchades.Properties.ResourcesSaida.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\Merchades.frmMenu.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\Merchades.frmNotaFiscal.resources
+C:\Users\LabInfo\Downloads\prjMerchades\prjMerchades\obj\Debug\Merchades.frmPagamento.resources
