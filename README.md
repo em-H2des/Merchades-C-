@@ -1,11 +1,15 @@
-\# Projeto de Mercado - Sistema Integrado de Gestão
-
-\*2°DS - Etec Fernando Prestes (2025)\*
+# Merchades - Sistema Integrado de Gestão de Mercado
 
 
 
-!\[Logo do Projeto](imagens/logo\_merchades.png)
 
+<p align="center">
+  <img src="imagens/logo_merchades.png" alt="Logo do Projeto" width="300">
+</p>
+
+<p align="center">
+  2°DS - Etec Fernando Prestes (2025)
+</p>
 
 
 Este projeto consiste no desenvolvimento de um Sistema Integrado de Gestão para um mercado, abrangendo os processos essenciais de entrada (compras) e saída (vendas), utilizando Windows Forms para a interface e SQL Server para o banco de dados. O desenvolvimento é realizado em grupo por 40 alunos do 2°DS da Etec Fernando Prestes, simulando um ambiente real de trabalho.
@@ -16,7 +20,7 @@ Este projeto consiste no desenvolvimento de um Sistema Integrado de Gestão para
 
 
 
-\## Cenário do Sistema
+## Cenário do Sistema
 
 
 
@@ -24,33 +28,33 @@ O sistema contempla os seguintes processos:
 
 
 
-\### Entradas (Compras)
+### Entradas (Compras)
 
-\- Cadastro de fornecedores
+- Cadastro de fornecedores
 
-\- Registro de notas fiscais de compra
+- Registro de notas fiscais de compra
 
-\- Atualização automática do estoque com os produtos adquiridos
+- Atualização automática do estoque com os produtos adquiridos
 
-\- Geração de contas a pagar
+- Geração de contas a pagar
 
-\- Atualização do caixa
+- Atualização do caixa
 
 
 
-\### Saídas (Vendas)
+### Saídas (Vendas)
 
-\- Cadastro de clientes
+- Cadastro de clientes
 
-\- Registro de notas fiscais de venda
+- Registro de notas fiscais de venda
 
-\- Definição da forma de pagamento (à vista ou parcelado)
+- Definição da forma de pagamento (à vista ou parcelado)
 
-\- Atualização automática do estoque com a baixa dos produtos vendidos
+- Atualização automática do estoque com a baixa dos produtos vendidos
 
-\- Geração de contas a receber
+- Geração de contas a receber
 
-\- Atualização do caixa
+- Atualização do caixa
 
 
 
@@ -62,7 +66,7 @@ Cada nota fiscal (NF) inclui os itens do pedido e, ao ser lançada, atualiza aut
 
 
 
-\## Organização e Divisão das Equipes
+## Organização e Divisão das Equipes
 
 
 
@@ -70,43 +74,43 @@ Os 40 alunos estão organizados em grupos, subdivididos em funções que simulam
 
 
 
-\### Funções Distribuídas
+### Funções Distribuídas
 
 
 
-\- Gerente de Projeto:
+- Gerente de Projeto:
 
-&nbsp; Responsável pelo cronograma, reuniões e acompanhamento das entregas.
-
-
-
-\- Analista de Sistemas:
-
-&nbsp; Levantamento de requisitos e desenho dos fluxos do sistema.
+  Responsável pelo cronograma, reuniões e acompanhamento das entregas.
 
 
 
-\- Analista de Dados:
+- Analista de Sistemas:
 
-&nbsp; Modelo de banco de dados e consultas SQL.
-
-
-
-\- Desenvolvedores Back-End:
-
-&nbsp; Implementação da lógica de negócio em C#.
+ Levantamento de requisitos e desenho dos fluxos do sistema.
 
 
 
-\- Desenvolvedores Front-End:
+- Analista de Dados:
 
-&nbsp; Desenvolvimento das telas e usabilidade em Windows Forms.
+  Modelo de banco de dados e consultas SQL.
 
 
 
-\- Documentação/Testes:
+- Desenvolvedores Back-End:
 
-&nbsp; Registro de decisões, elaboração de manuais e validação das funcionalidades.
+  Implementação da lógica de negócio em C#.
+
+
+
+- Desenvolvedores Front-End:
+
+  Desenvolvimento das telas e usabilidade em Windows Forms.
+
+
+
+- Documentação/Testes:
+
+  Registro de decisões, elaboração de manuais e validação das funcionalidades.
 
 
 
@@ -114,27 +118,27 @@ Os 40 alunos estão organizados em grupos, subdivididos em funções que simulam
 
 
 
-\## Equipe Grupo Entrada (Compras)
+## Equipe Grupo Entrada (Compras)
 
 
 
 Gerente:
 
-\- Felipe Tudela
+- Felipe Tudela
 
 
 
 Funções:
 
-\- Análise de sistemas: Felipe Tudela e Amilton Neto
+- Análise de sistemas: Felipe Tudela e Amilton Neto
 
-\- Análise de dados: Enzo, Maria Luísa, Nikolas, Ryan e Samuel Rodrigues
+- Análise de dados: Enzo, Maria Luísa, Nikolas, Ryan e Samuel Rodrigues
 
-\- Desenvolvedores Front-End: Amilton Neto, Caique, César, Eduardo Sugahara, Luiz Gustavo e Sabina
+- Desenvolvedores Front-End: Amilton Neto, Caique, César, Eduardo Sugahara, Luiz Gustavo e Sabina
 
-\- Desenvolvedores Back-End: Brenda, Filipe, Gabriel Rangel, Murillo e Ryan
+- Desenvolvedores Back-End: Brenda, Filipe, Gabriel Rangel, Murillo e Ryan
 
-\- Documentação/Testes: Iago, Felipe Tudela, Lucas e Matheus
+- Documentação/Testes: Iago, Felipe Tudela, Lucas e Matheus
 
 
 
@@ -142,27 +146,27 @@ Funções:
 
 
 
-\## Equipe Grupo Saída (Vendas)
+## Equipe Grupo Saída (Vendas)
 
 
 
 Gerente:
 
-\- Natália
+- Natália
 
 
 
 Funções:
 
-\- Analista de sistemas: Julia e Maira, Giovanna e Iris
+- Analista de sistemas: Julia e Maira, Giovanna e Iris
 
-\- Análise de dados: Evelyn, Gabriel, Samuel Trontino e Douglas
+- Análise de dados: Evelyn, Gabriel, Samuel Trontino e Douglas
 
-\- Desenvolvedores Front-End: Caio, Brendon, Hessel e Ramalho
+- Desenvolvedores Front-End: Caio, Brendon, Hessel e Ramalho
 
-\- Desenvolvedores Back-End: Marco, Felipão e Arthur
+- Desenvolvedores Back-End: Marco, Felipão e Arthur
 
-\- Documentação/Testes: Alain e Pedro
+- Documentação/Testes: Alain e Pedro
 
 
 
@@ -170,15 +174,15 @@ Funções:
 
 
 
-\## Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 
 
-\- Linguagem de programação: C#
+- Linguagem de programação: C#
 
-\- Interface: Windows Forms
+- Interface: Windows Forms
 
-\- Banco de Dados: SQL Server
+- Banco de Dados: SQL Server
 
 
 
