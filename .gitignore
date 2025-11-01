@@ -90,3 +90,6 @@ Temp*/
 **/App_Data/*.ldf
 **/App_Data/*.sdf
 prjMerchades/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+.vs/prjMerchades/v17/.suo
+.vs/prjMerchades/v17/DocumentLayout.backup.json
+.vs/prjMerchades/v17/DocumentLayout.json
