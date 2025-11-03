@@ -22,6 +22,15 @@ CREATE TABLE FORNECEDOR (
 	CNPJ_FORNECEDOR varchar (14) -- Documento da empresa
 );
 
+CREATE TABLE NOTA_FISCAL_FORNECEDOR (
+    ID_NOTA_FISCAL_FORNEC int identity primary key,
+    DATA_EMISSAO date, -- Data que será emitida na compra com o fornecedor
+    VALOR_COMPRA money, -- Quanto foi gasto com o fornecedor
+    COD_NOTA_FORN varchar (50), -- Código da nota fiscal do fornecedor, para dividir e saber qual nota é
+    OBSERVACAO varchar (150), -- Alguma especificação
+    ID_FORNECEDOR int foreign key references FORNECEDOR (ID_FORNECEDOR) -- Identificação do fornecedor via id
+);
+
 CREATE TABLE ESTOQUE ( 	
 	ID_ESTOQUE int identity primary key, 		 	
 	QTD_ESTOQUE int,
@@ -69,15 +78,6 @@ CREATE TABLE ITENS_NOTA_VENDA (
 	QTD_PRODUTO int, -- Saber a quantidade do produto em uma venda
     ID_PRODUTOS int foreign key references PRODUTOS (ID_PRODUTOS),
 	ID_NOTA_VENDA int foreign key references NOTA_FISCAL_VENDA (ID_NOTA_VENDA)
-);
-
-CREATE TABLE NOTA_FISCAL_FORNECEDOR (
-    ID_NOTA_FISCAL_FORNEC int identity primary key,
-    DATA_EMISSAO date, -- Data que será emitida na compra com o fornecedor
-    VALOR_COMPRA money, -- Quanto foi gasto com o fornecedor
-    COD_NOTA_FORN varchar (50), -- Código da nota fiscal do fornecedor, para dividir e saber qual nota é
-    OBSERVACAO varchar (150), -- Alguma especificação
-    ID_FORNECEDOR int foreign key references FORNECEDOR (ID_FORNECEDOR) -- Identificação do fornecedor via id
 );
 
 CREATE TABLE ITENS_NOTA_FORNECEDOR (
@@ -192,6 +192,7 @@ END;
 
 -----
 
+GO
 CREATE TRIGGER TR_AI_ITENS_NOTA_VENDA
 ON ITENS_NOTA_VENDA
 AFTER INSERT
@@ -474,6 +475,7 @@ GO
 
 -- de relatorio financeiro --
 
+GO
 CREATE PROCEDURE PR_GerarRelatorioFinanceiro
     @DataInicio DATE,
     @DataFim DATE
