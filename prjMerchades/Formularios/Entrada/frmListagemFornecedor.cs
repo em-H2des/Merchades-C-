@@ -21,9 +21,74 @@ namespace prjMerchades.Formularios.Entrada
 
         private void frmListagemFornecedor_Load(object sender, EventArgs e)
         {
-            lbl_Data.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            // TODO: esta linha de código carrega dados na tabela 'dsDadosEntrada.COLUNASFORNECEDOR'. Você pode movê-la ou removê-la conforme necessário.
+            this.cOLUNASFORNECEDORTableAdapter.Fill(this.dsDadosEntrada.COLUNASFORNECEDOR);
+            // TODO: esta linha de código carrega dados na tabela 'dsDadosEntrada.FORNECEDOR'. Você pode movê-la ou removê-la conforme necessário.
+            this.fORNECEDORTableAdapter.Fill(this.dsDadosEntrada.FORNECEDOR);
+            this.ReportViewerFornec.RefreshReport();
 
-            this.reportViewer_Fornecedores.RefreshReport();
+            if (cmbFiltro.Items.Count > 0) cmbFiltro.SelectedIndex = 0;
+            txtBox_TxtFiltro.Enabled = false;
+        }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            string vColuna, vProcurar, vTexto, vFiltro;
+
+            vColuna = cmbColunas.SelectedItem.ToString();
+            vProcurar = cmbFiltro.Text;
+            vTexto = txtBox_TxtFiltro.Text.Trim().Replace("'", "''");
+            vFiltro = "";
+
+            switch (vProcurar)
+            {
+                case "Todos":
+                    // Remove qualquer filtro existente
+                    fORNECEDORBindingSource.RemoveFilter();
+                    txtBox_TxtFiltro.Text = "";
+                    return;
+
+                case "Que começa com":
+                    if (string.IsNullOrEmpty(vTexto)) break;
+                    vFiltro = $"CONVERT([{vColuna}], 'System.String') LIKE '{vTexto}%'";
+                    break;
+
+                case "Que contém":
+                    if (string.IsNullOrEmpty(vTexto)) break;
+                    vFiltro = $"CONVERT([{vColuna}], 'System.String') LIKE '%{vTexto}%'";
+                    break;
+
+                case "Que termina com":
+                    if (string.IsNullOrEmpty(vTexto)) break;
+                    vFiltro = $"CONVERT([{vColuna}], 'System.String') LIKE '%{vTexto}'";
+                    break;
+
+                default:
+                    fORNECEDORBindingSource.RemoveFilter();
+                    return;
+            }
+
+            if (!string.IsNullOrEmpty(vFiltro))
+            {
+                fORNECEDORBindingSource.Filter = vFiltro;
+            }
+            else
+            {
+                fORNECEDORBindingSource.RemoveFilter();
+            }
+        }
+
+        private void cmbBox_Filtro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbFiltro.Text == "Todos")
+            {
+                txtBox_TxtFiltro.Text = "";
+                txtBox_TxtFiltro.Enabled = false;
+            }
+            else
+            {
+                txtBox_TxtFiltro.Enabled = true;
+            }
         }
     }
 }
