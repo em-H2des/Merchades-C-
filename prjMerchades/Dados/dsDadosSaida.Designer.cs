@@ -1188,6 +1188,8 @@ namespace prjMerchades.Dados {
             
             private global::System.Data.DataColumn columnCODIGO_DE_BARRAS;
             
+            private global::System.Data.DataColumn columnCODIGO_DE_BARRAS1;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public PRODUTOSDataTable() {
@@ -1271,6 +1273,14 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn CODIGO_DE_BARRAS1Column {
+                get {
+                    return this.columnCODIGO_DE_BARRAS1;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1306,7 +1316,7 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public PRODUTOSRow AddPRODUTOSRow(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, decimal PRECO_PRODUTOS, int CODIGO_DE_BARRAS) {
+            public PRODUTOSRow AddPRODUTOSRow(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, decimal PRECO_PRODUTOS, int CODIGO_DE_BARRAS, string CODIGO_DE_BARRAS1) {
                 PRODUTOSRow rowPRODUTOSRow = ((PRODUTOSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -1314,7 +1324,8 @@ namespace prjMerchades.Dados {
                         TIPO_PRODUTOS,
                         TIPO_UNITARIO,
                         PRECO_PRODUTOS,
-                        CODIGO_DE_BARRAS};
+                        CODIGO_DE_BARRAS,
+                        CODIGO_DE_BARRAS1};
                 rowPRODUTOSRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowPRODUTOSRow);
                 return rowPRODUTOSRow;
@@ -1350,6 +1361,7 @@ namespace prjMerchades.Dados {
                 this.columnTIPO_UNITARIO = base.Columns["TIPO_UNITARIO"];
                 this.columnPRECO_PRODUTOS = base.Columns["PRECO_PRODUTOS"];
                 this.columnCODIGO_DE_BARRAS = base.Columns["CODIGO_DE_BARRAS"];
+                this.columnCODIGO_DE_BARRAS1 = base.Columns["CODIGO_DE_BARRAS1"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1367,6 +1379,8 @@ namespace prjMerchades.Dados {
                 base.Columns.Add(this.columnPRECO_PRODUTOS);
                 this.columnCODIGO_DE_BARRAS = new global::System.Data.DataColumn("CODIGO_DE_BARRAS", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCODIGO_DE_BARRAS);
+                this.columnCODIGO_DE_BARRAS1 = new global::System.Data.DataColumn("CODIGO_DE_BARRAS1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCODIGO_DE_BARRAS1);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID_PRODUTOS}, true));
                 this.columnID_PRODUTOS.AutoIncrement = true;
@@ -1378,6 +1392,8 @@ namespace prjMerchades.Dados {
                 this.columnNOME_PRODUTOS.MaxLength = 70;
                 this.columnTIPO_PRODUTOS.MaxLength = 30;
                 this.columnTIPO_UNITARIO.MaxLength = 30;
+                this.columnCODIGO_DE_BARRAS1.Caption = "CODIGO_DE_BARRAS";
+                this.columnCODIGO_DE_BARRAS1.MaxLength = 20;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2914,6 +2930,22 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string CODIGO_DE_BARRAS1 {
+                get {
+                    try {
+                        return ((string)(this[this.tablePRODUTOS.CODIGO_DE_BARRAS1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CODIGO_DE_BARRAS1\' in table \'PRODUTOS\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePRODUTOS.CODIGO_DE_BARRAS1Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsNOME_PRODUTOSNull() {
                 return this.IsNull(this.tablePRODUTOS.NOME_PRODUTOSColumn);
             }
@@ -2970,6 +3002,18 @@ namespace prjMerchades.Dados {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetCODIGO_DE_BARRASNull() {
                 this[this.tablePRODUTOS.CODIGO_DE_BARRASColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsCODIGO_DE_BARRAS1Null() {
+                return this.IsNull(this.tablePRODUTOS.CODIGO_DE_BARRAS1Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetCODIGO_DE_BARRAS1Null() {
+                this[this.tablePRODUTOS.CODIGO_DE_BARRAS1Column] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4724,7 +4768,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             tableMapping.ColumnMappings.Add("TIPO_PRODUTOS", "TIPO_PRODUTOS");
             tableMapping.ColumnMappings.Add("TIPO_UNITARIO", "TIPO_UNITARIO");
             tableMapping.ColumnMappings.Add("PRECO_PRODUTOS", "PRECO_PRODUTOS");
-            tableMapping.ColumnMappings.Add("CODIGO_DE_BARRAS", "CODIGO_DE_BARRAS");
+            tableMapping.ColumnMappings.Add("CODIGO_DE_BARRAS", "CODIGO_DE_BARRAS1");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
@@ -4740,7 +4784,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_PRECO_PRODUTOS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRECO_PRODUTOS", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_PRECO_PRODUTOS", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRECO_PRODUTOS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_CODIGO_DE_BARRAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_CODIGO_DE_BARRAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_CODIGO_DE_BARRAS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[PRODUTOS] ([NOME_PRODUTOS], [TIPO_PRODUTOS], [TIPO_UNITARIO], [PRECO_PRODUTOS], [CODIGO_DE_BARRAS]) VALUES (@NOME_PRODUTOS, @TIPO_PRODUTOS, @TIPO_UNITARIO, @PRECO_PRODUTOS, @CODIGO_DE_BARRAS);
@@ -4750,7 +4794,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TIPO_PRODUTOS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TIPO_PRODUTOS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TIPO_UNITARIO", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TIPO_UNITARIO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PRECO_PRODUTOS", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRECO_PRODUTOS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CODIGO_DE_BARRAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CODIGO_DE_BARRAS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[PRODUTOS] SET [NOME_PRODUTOS] = @NOME_PRODUTOS, [TIPO_PRODUTOS] = @TIPO_PRODUTOS, [TIPO_UNITARIO] = @TIPO_UNITARIO, [PRECO_PRODUTOS] = @PRECO_PRODUTOS, [CODIGO_DE_BARRAS] = @CODIGO_DE_BARRAS WHERE (([ID_PRODUTOS] = @Original_ID_PRODUTOS) AND ((@IsNull_NOME_PRODUTOS = 1 AND [NOME_PRODUTOS] IS NULL) OR ([NOME_PRODUTOS] = @Original_NOME_PRODUTOS)) AND ((@IsNull_TIPO_PRODUTOS = 1 AND [TIPO_PRODUTOS] IS NULL) OR ([TIPO_PRODUTOS] = @Original_TIPO_PRODUTOS)) AND ((@IsNull_TIPO_UNITARIO = 1 AND [TIPO_UNITARIO] IS NULL) OR ([TIPO_UNITARIO] = @Original_TIPO_UNITARIO)) AND ((@IsNull_PRECO_PRODUTOS = 1 AND [PRECO_PRODUTOS] IS NULL) OR ([PRECO_PRODUTOS] = @Original_PRECO_PRODUTOS)) AND ((@IsNull_CODIGO_DE_BARRAS = 1 AND [CODIGO_DE_BARRAS] IS NULL) OR ([CODIGO_DE_BARRAS] = @Original_CODIGO_DE_BARRAS)));
@@ -4760,7 +4804,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TIPO_PRODUTOS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TIPO_PRODUTOS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TIPO_UNITARIO", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TIPO_UNITARIO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PRECO_PRODUTOS", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRECO_PRODUTOS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CODIGO_DE_BARRAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CODIGO_DE_BARRAS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_PRODUTOS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_PRODUTOS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_NOME_PRODUTOS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NOME_PRODUTOS", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_NOME_PRODUTOS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "NOME_PRODUTOS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -4771,7 +4815,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_PRECO_PRODUTOS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRECO_PRODUTOS", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_PRECO_PRODUTOS", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PRECO_PRODUTOS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_CODIGO_DE_BARRAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_CODIGO_DE_BARRAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_CODIGO_DE_BARRAS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CODIGO_DE_BARRAS", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_PRODUTOS", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ID_PRODUTOS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -4850,7 +4894,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_ID_PRODUTOS, string Original_NOME_PRODUTOS, string Original_TIPO_PRODUTOS, string Original_TIPO_UNITARIO, global::System.Nullable<decimal> Original_PRECO_PRODUTOS, global::System.Nullable<int> Original_CODIGO_DE_BARRAS) {
+        public virtual int Delete(int Original_ID_PRODUTOS, string Original_NOME_PRODUTOS, string Original_TIPO_PRODUTOS, string Original_TIPO_UNITARIO, global::System.Nullable<decimal> Original_PRECO_PRODUTOS, string Original_CODIGO_DE_BARRAS) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_ID_PRODUTOS));
             if ((Original_NOME_PRODUTOS == null)) {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(1));
@@ -4884,13 +4928,13 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
                 this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
             }
-            if ((Original_CODIGO_DE_BARRAS.HasValue == true)) {
-                this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[10].Value = ((int)(Original_CODIGO_DE_BARRAS.Value));
-            }
-            else {
+            if ((Original_CODIGO_DE_BARRAS == null)) {
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[9].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[10].Value = ((string)(Original_CODIGO_DE_BARRAS));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -4912,7 +4956,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, global::System.Nullable<decimal> PRECO_PRODUTOS, global::System.Nullable<int> CODIGO_DE_BARRAS) {
+        public virtual int Insert(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, global::System.Nullable<decimal> PRECO_PRODUTOS, string CODIGO_DE_BARRAS) {
             if ((NOME_PRODUTOS == null)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -4937,11 +4981,11 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
             else {
                 this.Adapter.InsertCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            if ((CODIGO_DE_BARRAS.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[4].Value = ((int)(CODIGO_DE_BARRAS.Value));
+            if ((CODIGO_DE_BARRAS == null)) {
+                this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
+                this.Adapter.InsertCommand.Parameters[4].Value = ((string)(CODIGO_DE_BARRAS));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -4963,7 +5007,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, global::System.Nullable<decimal> PRECO_PRODUTOS, global::System.Nullable<int> CODIGO_DE_BARRAS, int Original_ID_PRODUTOS, string Original_NOME_PRODUTOS, string Original_TIPO_PRODUTOS, string Original_TIPO_UNITARIO, global::System.Nullable<decimal> Original_PRECO_PRODUTOS, global::System.Nullable<int> Original_CODIGO_DE_BARRAS, int ID_PRODUTOS) {
+        public virtual int Update(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, global::System.Nullable<decimal> PRECO_PRODUTOS, string CODIGO_DE_BARRAS, int Original_ID_PRODUTOS, string Original_NOME_PRODUTOS, string Original_TIPO_PRODUTOS, string Original_TIPO_UNITARIO, global::System.Nullable<decimal> Original_PRECO_PRODUTOS, string Original_CODIGO_DE_BARRAS, int ID_PRODUTOS) {
             if ((NOME_PRODUTOS == null)) {
                 this.Adapter.UpdateCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -4988,11 +5032,11 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
             else {
                 this.Adapter.UpdateCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            if ((CODIGO_DE_BARRAS.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[4].Value = ((int)(CODIGO_DE_BARRAS.Value));
+            if ((CODIGO_DE_BARRAS == null)) {
+                this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(CODIGO_DE_BARRAS));
             }
             this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(Original_ID_PRODUTOS));
             if ((Original_NOME_PRODUTOS == null)) {
@@ -5027,13 +5071,13 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
                 this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
             }
-            if ((Original_CODIGO_DE_BARRAS.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(Original_CODIGO_DE_BARRAS.Value));
-            }
-            else {
+            if ((Original_CODIGO_DE_BARRAS == null)) {
                 this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((string)(Original_CODIGO_DE_BARRAS));
             }
             this.Adapter.UpdateCommand.Parameters[16].Value = ((int)(ID_PRODUTOS));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
@@ -5056,7 +5100,7 @@ SELECT ID_PRODUTOS, NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, global::System.Nullable<decimal> PRECO_PRODUTOS, global::System.Nullable<int> CODIGO_DE_BARRAS, int Original_ID_PRODUTOS, string Original_NOME_PRODUTOS, string Original_TIPO_PRODUTOS, string Original_TIPO_UNITARIO, global::System.Nullable<decimal> Original_PRECO_PRODUTOS, global::System.Nullable<int> Original_CODIGO_DE_BARRAS) {
+        public virtual int Update(string NOME_PRODUTOS, string TIPO_PRODUTOS, string TIPO_UNITARIO, global::System.Nullable<decimal> PRECO_PRODUTOS, string CODIGO_DE_BARRAS, int Original_ID_PRODUTOS, string Original_NOME_PRODUTOS, string Original_TIPO_PRODUTOS, string Original_TIPO_UNITARIO, global::System.Nullable<decimal> Original_PRECO_PRODUTOS, string Original_CODIGO_DE_BARRAS) {
             return this.Update(NOME_PRODUTOS, TIPO_PRODUTOS, TIPO_UNITARIO, PRECO_PRODUTOS, CODIGO_DE_BARRAS, Original_ID_PRODUTOS, Original_NOME_PRODUTOS, Original_TIPO_PRODUTOS, Original_TIPO_UNITARIO, Original_PRECO_PRODUTOS, Original_CODIGO_DE_BARRAS, Original_ID_PRODUTOS);
         }
     }
@@ -5878,7 +5922,7 @@ SELECT ID_ITENS_NOTA_VENDA, QTD_PRODUTO, ID_PRODUTOS FROM ITENS_NOTA_VENDA WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::prjMerchades.Properties.Settings.Default.ConnectionString;
+            this._connection.ConnectionString = global::prjMerchades.Properties.Settings.Default.db_240098_66_A_1_2024ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
