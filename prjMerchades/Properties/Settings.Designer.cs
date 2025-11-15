@@ -33,5 +33,16 @@ namespace prjMerchades.Properties {
                 return ((string)(this["db_240098_66_A_1_2024ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=book-hcct09v1m0;Initial Catalog=master;Integrated Security=True;Encry" +
+            "pt=True;TrustServerCertificate=True")]
+        public string masterConnectionString {
+            get {
+                return ((string)(this["masterConnectionString"]));
+            }
+        }
     }
 }

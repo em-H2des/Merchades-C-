@@ -64,6 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dados\daDadosEntrada.cs">
+      <DependentUpon>daDadosEntrada.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dados\daDadosEntrada.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCompras));
             this.tabControl_Compras = new System.Windows.Forms.TabControl();
             this.tabPage_NF = new System.Windows.Forms.TabPage();
@@ -57,16 +58,10 @@
             this.txtBox_CodBarras = new System.Windows.Forms.TextBox();
             this.lbl_CodBarras = new System.Windows.Forms.Label();
             this.tabPage_Divida = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cmbFiltro = new System.Windows.Forms.ComboBox();
+            this.txtFiltro = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lbl_Data2 = new System.Windows.Forms.Label();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.col_fornecedor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.col_produto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.col_data = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.col_valor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage_CompraAntg = new System.Windows.Forms.TabPage();
             this.cmbBox_Filtro = new System.Windows.Forms.ComboBox();
             this.txtBox_TxtFiltro = new System.Windows.Forms.TextBox();
@@ -82,12 +77,33 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.picBox_Logo = new System.Windows.Forms.PictureBox();
+            this.nOTAFISCALFORNECEDORBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.daDadosEntrada = new prjMerchades.Dados.daDadosEntrada();
+            this.nOTA_FISCAL_FORNECEDORTableAdapter = new prjMerchades.Dados.daDadosEntradaTableAdapters.NOTA_FISCAL_FORNECEDORTableAdapter();
+            this.daDadosEntrada1 = new prjMerchades.Dados.daDadosEntrada();
+            this.compraDividasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.compraDividasTableAdapter = new prjMerchades.Dados.daDadosEntradaTableAdapters.compraDividasTableAdapter();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.daDadosEntrada2 = new prjMerchades.Dados.daDadosEntrada();
+            this.compraDividasBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.colNomeFornecedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colValor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colData = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colObs = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl_Compras.SuspendLayout();
             this.tabPage_NF.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NumUpDown_Qtd)).BeginInit();
             this.tabPage_Divida.SuspendLayout();
             this.tabPage_CompraAntg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nOTAFISCALFORNECEDORBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daDadosEntrada)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daDadosEntrada1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.compraDividasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daDadosEntrada2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.compraDividasBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl_Compras
@@ -380,12 +396,12 @@
             // tabPage_Divida
             // 
             this.tabPage_Divida.BackColor = System.Drawing.Color.DarkGray;
-            this.tabPage_Divida.Controls.Add(this.comboBox1);
-            this.tabPage_Divida.Controls.Add(this.textBox1);
+            this.tabPage_Divida.Controls.Add(this.dataGridView1);
+            this.tabPage_Divida.Controls.Add(this.btnBuscar);
+            this.tabPage_Divida.Controls.Add(this.cmbFiltro);
+            this.tabPage_Divida.Controls.Add(this.txtFiltro);
             this.tabPage_Divida.Controls.Add(this.label2);
-            this.tabPage_Divida.Controls.Add(this.textBox2);
             this.tabPage_Divida.Controls.Add(this.lbl_Data2);
-            this.tabPage_Divida.Controls.Add(this.listView2);
             this.tabPage_Divida.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Divida.Name = "tabPage_Divida";
             this.tabPage_Divida.Padding = new System.Windows.Forms.Padding(3);
@@ -393,52 +409,42 @@
             this.tabPage_Divida.TabIndex = 1;
             this.tabPage_Divida.Text = "Dívidas";
             // 
-            // comboBox1
+            // cmbFiltro
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(78)))), ((int)(((byte)(46)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbFiltro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbFiltro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(78)))), ((int)(((byte)(46)))));
+            this.cmbFiltro.FormattingEnabled = true;
+            this.cmbFiltro.Items.AddRange(new object[] {
             "Data",
             "Valor",
             "Fornecedor"});
-            this.comboBox1.Location = new System.Drawing.Point(425, 33);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(217, 32);
-            this.comboBox1.TabIndex = 28;
+            this.cmbFiltro.Location = new System.Drawing.Point(149, 33);
+            this.cmbFiltro.Name = "cmbFiltro";
+            this.cmbFiltro.Size = new System.Drawing.Size(217, 32);
+            this.cmbFiltro.TabIndex = 28;
             // 
-            // textBox1
+            // txtFiltro
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(78)))), ((int)(((byte)(46)))));
-            this.textBox1.Location = new System.Drawing.Point(676, 35);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(263, 31);
-            this.textBox1.TabIndex = 27;
-            this.textBox1.Text = "Texto Filtrador Ex:(14/07/2000)";
+            this.txtFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFiltro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(78)))), ((int)(((byte)(46)))));
+            this.txtFiltro.Location = new System.Drawing.Point(391, 34);
+            this.txtFiltro.Multiline = true;
+            this.txtFiltro.Name = "txtFiltro";
+            this.txtFiltro.Size = new System.Drawing.Size(263, 31);
+            this.txtFiltro.TabIndex = 27;
+            this.txtFiltro.Text = "Texto Filtrador Ex:(14/07/2000)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(78)))), ((int)(((byte)(46)))));
-            this.label2.Location = new System.Drawing.Point(297, 33);
+            this.label2.Location = new System.Drawing.Point(21, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 25);
             this.label2.TabIndex = 26;
             this.label2.Text = "Filtrar Por:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(78)))), ((int)(((byte)(46)))));
-            this.textBox2.Location = new System.Drawing.Point(13, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(280, 29);
-            this.textBox2.TabIndex = 25;
-            this.textBox2.Text = "Nome do Fornecedor";
             // 
             // lbl_Data2
             // 
@@ -446,47 +452,11 @@
             this.lbl_Data2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(147)))), ((int)(((byte)(116)))));
             this.lbl_Data2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Data2.ForeColor = System.Drawing.Color.White;
-            this.lbl_Data2.Location = new System.Drawing.Point(945, 35);
+            this.lbl_Data2.Location = new System.Drawing.Point(950, 36);
             this.lbl_Data2.Name = "lbl_Data2";
             this.lbl_Data2.Size = new System.Drawing.Size(110, 25);
             this.lbl_Data2.TabIndex = 24;
             this.lbl_Data2.Text = "              ";
-            // 
-            // listView2
-            // 
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.col_fornecedor,
-            this.col_produto,
-            this.col_data,
-            this.col_valor});
-            this.listView2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(3, 104);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(1079, 468);
-            this.listView2.TabIndex = 0;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
-            // 
-            // col_fornecedor
-            // 
-            this.col_fornecedor.Text = "Fornecedor";
-            this.col_fornecedor.Width = 157;
-            // 
-            // col_produto
-            // 
-            this.col_produto.Text = "Produto";
-            this.col_produto.Width = 216;
-            // 
-            // col_data
-            // 
-            this.col_data.Text = "Data de compra";
-            this.col_data.Width = 150;
-            // 
-            // col_valor
-            // 
-            this.col_valor.Text = "Valor";
-            this.col_valor.Width = 131;
             // 
             // tabPage_CompraAntg
             // 
@@ -633,6 +603,97 @@
             this.picBox_Logo.TabIndex = 4;
             this.picBox_Logo.TabStop = false;
             // 
+            // nOTAFISCALFORNECEDORBindingSource
+            // 
+            this.nOTAFISCALFORNECEDORBindingSource.DataMember = "NOTA_FISCAL_FORNECEDOR";
+            this.nOTAFISCALFORNECEDORBindingSource.DataSource = this.daDadosEntrada;
+            // 
+            // daDadosEntrada
+            // 
+            this.daDadosEntrada.DataSetName = "daDadosEntrada";
+            this.daDadosEntrada.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // nOTA_FISCAL_FORNECEDORTableAdapter
+            // 
+            this.nOTA_FISCAL_FORNECEDORTableAdapter.ClearBeforeFill = true;
+            // 
+            // daDadosEntrada1
+            // 
+            this.daDadosEntrada1.DataSetName = "daDadosEntrada";
+            this.daDadosEntrada1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // compraDividasBindingSource
+            // 
+            this.compraDividasBindingSource.DataSource = this.daDadosEntrada1;
+            this.compraDividasBindingSource.Position = 0;
+            // 
+            // compraDividasTableAdapter
+            // 
+            this.compraDividasTableAdapter.ClearBeforeFill = true;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(716, 35);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(99, 30);
+            this.btnBuscar.TabIndex = 30;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colNomeFornecedor,
+            this.colValor,
+            this.colData,
+            this.colObs});
+            this.dataGridView1.DataSource = this.compraDividasBindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 88);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1085, 487);
+            this.dataGridView1.TabIndex = 31;
+            // 
+            // daDadosEntrada2
+            // 
+            this.daDadosEntrada2.DataSetName = "daDadosEntrada";
+            this.daDadosEntrada2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // compraDividasBindingSource1
+            // 
+            this.compraDividasBindingSource1.DataMember = "compraDividas";
+            this.compraDividasBindingSource1.DataSource = this.daDadosEntrada2;
+            // 
+            // colNomeFornecedor
+            // 
+            this.colNomeFornecedor.DataPropertyName = "NOME_FORNECEDOR";
+            this.colNomeFornecedor.HeaderText = "NOME_FORNECEDOR";
+            this.colNomeFornecedor.Name = "colNomeFornecedor";
+            this.colNomeFornecedor.Width = 250;
+            // 
+            // colValor
+            // 
+            this.colValor.DataPropertyName = "VALOR_COMPRA";
+            this.colValor.HeaderText = "VALOR_COMPRA";
+            this.colValor.Name = "colValor";
+            this.colValor.Width = 200;
+            // 
+            // colData
+            // 
+            this.colData.DataPropertyName = "DATA_EMISSAO";
+            this.colData.HeaderText = "DATA_EMISSAO";
+            this.colData.Name = "colData";
+            this.colData.Width = 150;
+            // 
+            // colObs
+            // 
+            this.colObs.DataPropertyName = "OBSERVACAO";
+            this.colObs.HeaderText = "OBSERVACAO";
+            this.colObs.Name = "colObs";
+            this.colObs.Width = 400;
+            // 
             // frmCompras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -657,6 +718,13 @@
             this.tabPage_CompraAntg.ResumeLayout(false);
             this.tabPage_CompraAntg.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nOTAFISCALFORNECEDORBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daDadosEntrada)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daDadosEntrada1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.compraDividasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.daDadosEntrada2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.compraDividasBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -691,11 +759,6 @@
         private System.Windows.Forms.TextBox txtCodFornecedor;
         private System.Windows.Forms.Label lbl_CodFornecedor;
         private System.Windows.Forms.Button btn_Enviar;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ColumnHeader col_fornecedor;
-        private System.Windows.Forms.ColumnHeader col_produto;
-        private System.Windows.Forms.ColumnHeader col_data;
-        private System.Windows.Forms.ColumnHeader col_valor;
         private System.Windows.Forms.TextBox txtBox_TipoProduto;
         private System.Windows.Forms.Label lbl_TipoProduto;
         private System.Windows.Forms.TextBox txtBox_NomeProduto;
@@ -712,10 +775,23 @@
         private System.Windows.Forms.Label lbl_FiltrarPor;
         private System.Windows.Forms.TextBox txt_NomeFiltro;
         private System.Windows.Forms.Label lbl_Data;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cmbFiltro;
+        private System.Windows.Forms.TextBox txtFiltro;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lbl_Data2;
+        private Dados.daDadosEntrada daDadosEntrada;
+        private System.Windows.Forms.BindingSource nOTAFISCALFORNECEDORBindingSource;
+        private Dados.daDadosEntradaTableAdapters.NOTA_FISCAL_FORNECEDORTableAdapter nOTA_FISCAL_FORNECEDORTableAdapter;
+        private Dados.daDadosEntrada daDadosEntrada1;
+        private System.Windows.Forms.BindingSource compraDividasBindingSource;
+        private Dados.daDadosEntradaTableAdapters.compraDividasTableAdapter compraDividasTableAdapter;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private Dados.daDadosEntrada daDadosEntrada2;
+        private System.Windows.Forms.BindingSource compraDividasBindingSource1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNomeFornecedor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colValor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colData;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colObs;
     }
 }
