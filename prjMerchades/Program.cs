@@ -18,7 +18,11 @@ namespace prjMerchades
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< Updated upstream
             Application.Run(new SplashScreen());
+=======
+            Application.Run(new frmRelFinanceiro());
+>>>>>>> Stashed changes
         }
     }
 }

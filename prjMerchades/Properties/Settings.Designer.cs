@@ -26,8 +26,13 @@ namespace prjMerchades.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+<<<<<<< Updated upstream
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DARNASSUS\\MOTORHEAD;Initial Catalog=db_240098_66_A_1_2024;User ID=240" +
             "098_66_A_1_2024;Password=12345678;TrustServerCertificate=True")]
+=======
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARCO\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True;Trus" +
+            "tServerCertificate=True")]
+>>>>>>> Stashed changes
         public string db_240098_66_A_1_2024ConnectionString {
             get {
                 return ((string)(this["db_240098_66_A_1_2024ConnectionString"]));

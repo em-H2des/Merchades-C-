@@ -58,10 +58,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(21, 14);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(14, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(508, 58);
+            this.label1.Size = new System.Drawing.Size(411, 46);
             this.label1.TabIndex = 6;
             this.label1.Text = "Relatório Financeiro ";
             // 
@@ -72,11 +71,10 @@
             this.tabControl_Financeiro.Controls.Add(this.tabPage_CompraAntg);
             this.tabControl_Financeiro.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl_Financeiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl_Financeiro.Location = new System.Drawing.Point(0, 114);
-            this.tabControl_Financeiro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabControl_Financeiro.Location = new System.Drawing.Point(0, 74);
             this.tabControl_Financeiro.Name = "tabControl_Financeiro";
             this.tabControl_Financeiro.SelectedIndex = 0;
-            this.tabControl_Financeiro.Size = new System.Drawing.Size(1640, 935);
+            this.tabControl_Financeiro.Size = new System.Drawing.Size(1093, 608);
             this.tabControl_Financeiro.TabIndex = 5;
             this.tabControl_Financeiro.SelectedIndexChanged += new System.EventHandler(this.tabControl_Financeiro_SelectedIndexChanged);
             // 
@@ -87,22 +85,20 @@
             this.tabPage_NF.Controls.Add(this.comboBox2);
             this.tabPage_NF.Controls.Add(this.label3);
             this.tabPage_NF.Controls.Add(this.lbl_Linha2);
-            this.tabPage_NF.Location = new System.Drawing.Point(4, 34);
-            this.tabPage_NF.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage_NF.Location = new System.Drawing.Point(4, 29);
             this.tabPage_NF.Name = "tabPage_NF";
-            this.tabPage_NF.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage_NF.Size = new System.Drawing.Size(1632, 897);
+            this.tabPage_NF.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_NF.Size = new System.Drawing.Size(1085, 575);
             this.tabPage_NF.TabIndex = 0;
             this.tabPage_NF.Text = "Gastos";
             this.tabPage_NF.Click += new System.EventHandler(this.tabPage_NF_Click);
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Location = new System.Drawing.Point(4, 102);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.reportViewer1.Location = new System.Drawing.Point(3, 66);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1614, 777);
+            this.reportViewer1.Size = new System.Drawing.Size(1077, 506);
             this.reportViewer1.TabIndex = 42;
             // 
             // comboBox2
@@ -122,19 +118,17 @@
             "Outubro",
             "Novembro",
             "Dezembro"});
-            this.comboBox2.Location = new System.Drawing.Point(364, 23);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox2.Location = new System.Drawing.Point(243, 15);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(158, 33);
+            this.comboBox2.Size = new System.Drawing.Size(107, 28);
             this.comboBox2.TabIndex = 41;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 28);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(8, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(279, 25);
+            this.label3.Size = new System.Drawing.Size(229, 20);
             this.label3.TabIndex = 40;
             this.label3.Text = "Selecione o mês desejado :";
             // 
@@ -142,10 +136,9 @@
             // 
             this.lbl_Linha2.AutoSize = true;
             this.lbl_Linha2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_Linha2.Location = new System.Drawing.Point(38, 714);
-            this.lbl_Linha2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Linha2.Location = new System.Drawing.Point(25, 464);
             this.lbl_Linha2.Name = "lbl_Linha2";
-            this.lbl_Linha2.Size = new System.Drawing.Size(1380, 25);
+            this.lbl_Linha2.Size = new System.Drawing.Size(1149, 20);
             this.lbl_Linha2.TabIndex = 34;
             this.lbl_Linha2.Text = "_________________________________________________________________________________" +
     "_________________________________";
@@ -156,21 +149,19 @@
             this.tabPage_Divida.Controls.Add(this.reportViewer2);
             this.tabPage_Divida.Controls.Add(this.comboBox1);
             this.tabPage_Divida.Controls.Add(this.label2);
-            this.tabPage_Divida.Location = new System.Drawing.Point(4, 34);
-            this.tabPage_Divida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage_Divida.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Divida.Name = "tabPage_Divida";
-            this.tabPage_Divida.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage_Divida.Size = new System.Drawing.Size(1632, 897);
+            this.tabPage_Divida.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_Divida.Size = new System.Drawing.Size(1085, 575);
             this.tabPage_Divida.TabIndex = 1;
             this.tabPage_Divida.Text = "Vendas";
             // 
             // reportViewer2
             // 
-            this.reportViewer2.Location = new System.Drawing.Point(4, 102);
-            this.reportViewer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.reportViewer2.Location = new System.Drawing.Point(3, 66);
             this.reportViewer2.Name = "reportViewer2";
             this.reportViewer2.ServerReport.BearerToken = null;
-            this.reportViewer2.Size = new System.Drawing.Size(1614, 777);
+            this.reportViewer2.Size = new System.Drawing.Size(1077, 506);
             this.reportViewer2.TabIndex = 43;
             // 
             // comboBox1
@@ -190,19 +181,17 @@
             "Outubro",
             "Novembro",
             "Dezembro"});
-            this.comboBox1.Location = new System.Drawing.Point(364, 23);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox1.Location = new System.Drawing.Point(243, 15);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(158, 33);
+            this.comboBox1.Size = new System.Drawing.Size(107, 28);
             this.comboBox1.TabIndex = 39;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 28);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(8, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(279, 25);
+            this.label2.Size = new System.Drawing.Size(229, 20);
             this.label2.TabIndex = 38;
             this.label2.Text = "Selecione o mês desejado :";
             // 
@@ -212,21 +201,20 @@
             this.tabPage_CompraAntg.Controls.Add(this.reportViewer3);
             this.tabPage_CompraAntg.Controls.Add(this.comboBox3);
             this.tabPage_CompraAntg.Controls.Add(this.label4);
-            this.tabPage_CompraAntg.Location = new System.Drawing.Point(4, 34);
-            this.tabPage_CompraAntg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage_CompraAntg.Location = new System.Drawing.Point(4, 29);
             this.tabPage_CompraAntg.Name = "tabPage_CompraAntg";
-            this.tabPage_CompraAntg.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage_CompraAntg.Size = new System.Drawing.Size(1632, 897);
+            this.tabPage_CompraAntg.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_CompraAntg.Size = new System.Drawing.Size(1085, 575);
             this.tabPage_CompraAntg.TabIndex = 2;
             this.tabPage_CompraAntg.Text = "Geral";
             // 
             // reportViewer3
             // 
-            this.reportViewer3.Location = new System.Drawing.Point(4, 102);
-            this.reportViewer3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.reportViewer3.LocalReport.ReportEmbeddedResource = "prjMerchades.Formularios.Financeiro.ReportFinanceiro.rdlc";
+            this.reportViewer3.Location = new System.Drawing.Point(3, 66);
             this.reportViewer3.Name = "reportViewer3";
             this.reportViewer3.ServerReport.BearerToken = null;
-            this.reportViewer3.Size = new System.Drawing.Size(1614, 777);
+            this.reportViewer3.Size = new System.Drawing.Size(1077, 506);
             this.reportViewer3.TabIndex = 43;
             // 
             // comboBox3
@@ -246,19 +234,17 @@
             "Outubro",
             "Novembro",
             "Dezembro"});
-            this.comboBox3.Location = new System.Drawing.Point(364, 23);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox3.Location = new System.Drawing.Point(243, 15);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(158, 33);
+            this.comboBox3.Size = new System.Drawing.Size(107, 28);
             this.comboBox3.TabIndex = 41;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 28);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(8, 18);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(279, 25);
+            this.label4.Size = new System.Drawing.Size(229, 20);
             this.label4.TabIndex = 40;
             this.label4.Text = "Selecione o mês desejado :";
             // 
@@ -266,10 +252,9 @@
             // 
             this.picBox_Logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picBox_Logo.Image = ((System.Drawing.Image)(resources.GetObject("picBox_Logo.Image")));
-            this.picBox_Logo.Location = new System.Drawing.Point(1446, 8);
-            this.picBox_Logo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picBox_Logo.Location = new System.Drawing.Point(964, 5);
             this.picBox_Logo.Name = "picBox_Logo";
-            this.picBox_Logo.Size = new System.Drawing.Size(150, 134);
+            this.picBox_Logo.Size = new System.Drawing.Size(100, 87);
             this.picBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBox_Logo.TabIndex = 7;
             this.picBox_Logo.TabStop = false;
@@ -281,28 +266,27 @@
             this.btnConfirmaCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(46)))), ((int)(((byte)(28)))));
             this.btnConfirmaCompra.FlatAppearance.BorderSize = 0;
             this.btnConfirmaCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmaCompra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmaCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirmaCompra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnConfirmaCompra.Location = new System.Drawing.Point(1194, 17);
-            this.btnConfirmaCompra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnConfirmaCompra.MinimumSize = new System.Drawing.Size(183, 55);
+            this.btnConfirmaCompra.Location = new System.Drawing.Point(796, 11);
+            this.btnConfirmaCompra.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.btnConfirmaCompra.MinimumSize = new System.Drawing.Size(122, 36);
             this.btnConfirmaCompra.Name = "btnConfirmaCompra";
-            this.btnConfirmaCompra.Size = new System.Drawing.Size(183, 55);
+            this.btnConfirmaCompra.Size = new System.Drawing.Size(122, 36);
             this.btnConfirmaCompra.TabIndex = 31;
             this.btnConfirmaCompra.Text = "Deslogar";
             this.btnConfirmaCompra.UseVisualStyleBackColor = false;
             // 
             // frmRelFinanceiro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(147)))), ((int)(((byte)(116)))));
-            this.ClientSize = new System.Drawing.Size(1640, 1049);
+            this.ClientSize = new System.Drawing.Size(1093, 682);
             this.Controls.Add(this.btnConfirmaCompra);
             this.Controls.Add(this.picBox_Logo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl_Financeiro);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmRelFinanceiro";
             this.Text = "Relatórios Financeiros";
             this.Load += new System.EventHandler(this.frmRelFinanceiro_Load);
