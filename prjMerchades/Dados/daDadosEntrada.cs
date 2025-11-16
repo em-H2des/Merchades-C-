@@ -4,9 +4,6 @@
 
     partial class daDadosEntrada
     {
-        partial class PRODUTOSEntradaDataTable
-        {
-        }
     }
 }
 

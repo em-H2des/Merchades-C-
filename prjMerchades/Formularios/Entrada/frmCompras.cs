@@ -1,7 +1,6 @@
 ﻿using Microsoft.ReportingServices.ReportProcessing.ReportObjectModel;
 using prjMerchades.Dados;
 using prjMerchades.Dados.daDadosEntradaTableAdapters;
-using prjMerchades.Dados.dsDadosSaidaTableAdapters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,10 +41,6 @@ namespace prjMerchades.Formularios.Entrada
 
             var fornecedor = daDadosEntrada.FORNECEDOR.FindByID_FORNECEDOR(codigoFornecedor);
 
-            var notaFiscalFornecedor = new Dados.daDadosEntradaTableAdapters.NOTA_FISCAL_FORNECEDORTableAdapter();
-            var produtos = new Dados.daDadosEntradaTableAdapters.PRODUTOSEntradaTableAdapter();
-            var estoque = new Dados.daDadosEntradaTableAdapters.ESTOQUEEntradaTableAdapter();
-
 
             if (fornecedor ==  null)
             {
@@ -57,28 +52,15 @@ namespace prjMerchades.Formularios.Entrada
             }
 
             //insert na tabela de nota fiscal
-            notaFiscalFornecedor.Insert(
+            nOTA_FISCAL_FORNECEDORTableAdapter.Insert(
                 dateEmissao.Value,
                 int.Parse(txtVlrTtl.Text),
                 txtCodNF.Text,
                 txtTipoProduto.Text,
                 codigoFornecedor
                 );
-
-            //insert na tabela produto
-            produtos.Insert(
-                txtNomeProduto.Text,
-                txtTipoProduto.Text,
-                cmbTipoUnitario.Text,
-                decimal.Parse(txtPreco.Text),
-                int.Parse(txtCodBarras.Text)
-                );
-
-            //insert na tabela estoque
-            /*estoque.Insert(
-                numQtd.Value,
-
-                );*/
+            
+            //insert na tabela 
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
