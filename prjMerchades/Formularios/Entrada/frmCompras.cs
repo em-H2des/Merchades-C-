@@ -74,10 +74,15 @@ namespace prjMerchades.Formularios.Entrada
                 int.Parse(txtCodBarras.Text)
                 );
 
+            int idProduto = int.Parse(produtos.UltimoId().ToString());
+            //int idNF = int.Parse(notaFiscalFornecedor.UltimoId().ToString());
+
+
             //insert na tabela estoque
             /*estoque.Insert(
                 numQtd.Value,
-
+                idProduto,
+                idNF
                 );*/
         }
 
