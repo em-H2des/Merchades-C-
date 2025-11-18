@@ -20,7 +20,7 @@ namespace prjMerchades.Formularios.Financeiro
         }
         private void btnLimparFiltroParcelas_Click(object sender, EventArgs e)
         {
-            this.dEBITOPARCELASBindingSource.Filter = "";
+            this.dEBITOPARCELASBindingSource.Filter = $"ID_PARCELAS = {dgvTabelaParcelas.SelectedRows[0].Cells[0].Value.ToString()}";
         }
 
         private void btnAplicarFiltroParcelas_Click(object sender, EventArgs e)
@@ -67,15 +67,18 @@ namespace prjMerchades.Formularios.Financeiro
         {
             for(int i = 0; i < dgvDebitoParcelas.SelectedRows.Count; i++)
             {
-                int idDebitoParcela = Convert.ToInt32(dgvDebitoParcelas.SelectedRows[i].Cells[0].Value);
+                int idDebitoParcela = Convert.ToInt32(dgvDebitoParcelas.SelectedRows[i].Cells[7].Value);
                 string numParcelas = dgvDebitoParcelas.SelectedRows[i].Cells[1].Value.ToString();
                 string observacao = dgvDebitoParcelas.SelectedRows[i].Cells[6].Value.ToString();
 
-                var adapter = new DEBITO_PARCELASTableAdapter();
-                adapter.PR_PagarParcela(idDebitoParcela, numParcelas, observacao);
-
-                adapter.Fill(this.dsDadosFinanceiro.DEBITO_PARCELAS);
+                var adapterDebitoParcelas = new DEBITO_PARCELASTableAdapter();
+                adapterDebitoParcelas.PR_PagarParcela(idDebitoParcela, numParcelas, observacao);
+                adapterDebitoParcelas.Fill(this.dsDadosFinanceiro.DEBITO_PARCELAS);
                 this.dEBITOPARCELASBindingSource.ResetBindings(false);
+
+                var adapterParcelas = new Vw_PARCELAS_CPFTableAdapter();
+                adapterParcelas.Fill(this.dsDadosFinanceiro.Vw_PARCELAS_CPF);
+                this.vwPARCELASCPFBindingSource.ResetBindings(false);
             }
 
         }
