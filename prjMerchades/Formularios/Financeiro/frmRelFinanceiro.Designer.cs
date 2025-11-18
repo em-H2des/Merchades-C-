@@ -29,15 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource8 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource9 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource7 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRelFinanceiro));
-            this.vwRELATORIOFINANCEIROGANHOSBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dsDadosSaida1 = new prjMerchades.Dados.dsDadosSaida();
-            this.rELATORIOFINANCEIROBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dsDadosSaida = new prjMerchades.Dados.dsDadosSaida();
-            this.vwRELATORIOFINANCEIRODESPESASBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl_Financeiro = new System.Windows.Forms.TabControl();
             this.tabPage_NF = new System.Windows.Forms.TabPage();
@@ -67,45 +64,35 @@
             this.label7 = new System.Windows.Forms.Label();
             this.picBox_Logo = new System.Windows.Forms.PictureBox();
             this.btnConfirmaCompra = new System.Windows.Forms.Button();
-            this.rELATORIO_FINANCEIROTableAdapter = new prjMerchades.Dados.dsDadosSaidaTableAdapters.RELATORIO_FINANCEIROTableAdapter();
-            this.vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter = new prjMerchades.Dados.dsDadosSaidaTableAdapters.Vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter();
-            this.vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter = new prjMerchades.Dados.dsDadosSaidaTableAdapters.Vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIROGANHOSBindingSource)).BeginInit();
+            this.dsDadosFinanceiro = new prjMerchades.Dados.dsDadosFinanceiro();
+            this.vwRELATORIOFINANCEIRODESPESASBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter = new prjMerchades.Dados.dsDadosFinanceiroTableAdapters.Vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter();
+            this.vwRELATORIOFINANCEIROGANHOSBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter = new prjMerchades.Dados.dsDadosFinanceiroTableAdapters.Vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter();
+            this.rELATORIOFINANCEIROBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rELATORIO_FINANCEIROTableAdapter = new prjMerchades.Dados.dsDadosFinanceiroTableAdapters.RELATORIO_FINANCEIROTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dsDadosSaida1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rELATORIOFINANCEIROBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsDadosSaida)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIRODESPESASBindingSource)).BeginInit();
             this.tabControl_Financeiro.SuspendLayout();
             this.tabPage_NF.SuspendLayout();
             this.tabPage_Divida.SuspendLayout();
             this.tabPage_CompraAntg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsDadosFinanceiro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIRODESPESASBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIROGANHOSBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rELATORIOFINANCEIROBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // vwRELATORIOFINANCEIROGANHOSBindingSource
-            // 
-            this.vwRELATORIOFINANCEIROGANHOSBindingSource.DataMember = "Vw_RELATORIO_FINANCEIRO_GANHOS";
-            this.vwRELATORIOFINANCEIROGANHOSBindingSource.DataSource = this.dsDadosSaida1;
             // 
             // dsDadosSaida1
             // 
             this.dsDadosSaida1.DataSetName = "dsDadosSaida";
             this.dsDadosSaida1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // rELATORIOFINANCEIROBindingSource
-            // 
-            this.rELATORIOFINANCEIROBindingSource.DataMember = "RELATORIO_FINANCEIRO";
-            this.rELATORIOFINANCEIROBindingSource.DataSource = this.dsDadosSaida;
-            // 
             // dsDadosSaida
             // 
             this.dsDadosSaida.DataSetName = "dsDadosSaida";
             this.dsDadosSaida.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // vwRELATORIOFINANCEIRODESPESASBindingSource
-            // 
-            this.vwRELATORIOFINANCEIRODESPESASBindingSource.DataMember = "Vw_RELATORIO_FINANCEIRO_DESPESAS";
-            this.vwRELATORIOFINANCEIRODESPESASBindingSource.DataSource = this.dsDadosSaida1;
             // 
             // label1
             // 
@@ -212,9 +199,9 @@
             this.rvGastos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource8.Name = "DataSetReportViewerRelatorioFinanceiro";
-            reportDataSource8.Value = this.vwRELATORIOFINANCEIRODESPESASBindingSource;
-            this.rvGastos.LocalReport.DataSources.Add(reportDataSource8);
+            reportDataSource1.Name = "DataSetReportViewerRelatorioFinanceiro";
+            reportDataSource1.Value = this.vwRELATORIOFINANCEIRODESPESASBindingSource;
+            this.rvGastos.LocalReport.DataSources.Add(reportDataSource1);
             this.rvGastos.LocalReport.ReportEmbeddedResource = "prjMerchades.Formularios.Financeiro.ReportFinanceiro.rdlc";
             this.rvGastos.Location = new System.Drawing.Point(3, 66);
             this.rvGastos.Name = "rvGastos";
@@ -318,9 +305,9 @@
             // 
             this.rvVendas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource9.Name = "DataSetReportViewerRelatorioFinanceiro";
-            reportDataSource9.Value = this.vwRELATORIOFINANCEIROGANHOSBindingSource;
-            this.rvVendas.LocalReport.DataSources.Add(reportDataSource9);
+            reportDataSource2.Name = "DataSetReportViewerRelatorioFinanceiro";
+            reportDataSource2.Value = this.vwRELATORIOFINANCEIROGANHOSBindingSource;
+            this.rvVendas.LocalReport.DataSources.Add(reportDataSource2);
             this.rvVendas.LocalReport.ReportEmbeddedResource = "prjMerchades.Formularios.Financeiro.ReportFinanceiro.rdlc";
             this.rvVendas.Location = new System.Drawing.Point(4, 64);
             this.rvVendas.Name = "rvVendas";
@@ -413,9 +400,9 @@
             // 
             this.rvGeral.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource7.Name = "DataSetReportViewerRelatorioFinanceiro";
-            reportDataSource7.Value = this.rELATORIOFINANCEIROBindingSource;
-            this.rvGeral.LocalReport.DataSources.Add(reportDataSource7);
+            reportDataSource3.Name = "DataSetReportViewerRelatorioFinanceiro";
+            reportDataSource3.Value = this.rELATORIOFINANCEIROBindingSource;
+            this.rvGeral.LocalReport.DataSources.Add(reportDataSource3);
             this.rvGeral.LocalReport.ReportEmbeddedResource = "prjMerchades.Formularios.Financeiro.ReportFinanceiro.rdlc";
             this.rvGeral.Location = new System.Drawing.Point(4, 64);
             this.rvGeral.Name = "rvGeral";
@@ -462,17 +449,37 @@
             this.btnConfirmaCompra.Text = "Deslogar";
             this.btnConfirmaCompra.UseVisualStyleBackColor = false;
             // 
-            // rELATORIO_FINANCEIROTableAdapter
+            // dsDadosFinanceiro
             // 
-            this.rELATORIO_FINANCEIROTableAdapter.ClearBeforeFill = true;
+            this.dsDadosFinanceiro.DataSetName = "dsDadosFinanceiro";
+            this.dsDadosFinanceiro.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // vwRELATORIOFINANCEIRODESPESASBindingSource
+            // 
+            this.vwRELATORIOFINANCEIRODESPESASBindingSource.DataMember = "Vw_RELATORIO_FINANCEIRO_DESPESAS";
+            this.vwRELATORIOFINANCEIRODESPESASBindingSource.DataSource = this.dsDadosFinanceiro;
             // 
             // vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter
             // 
             this.vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter.ClearBeforeFill = true;
             // 
+            // vwRELATORIOFINANCEIROGANHOSBindingSource
+            // 
+            this.vwRELATORIOFINANCEIROGANHOSBindingSource.DataMember = "Vw_RELATORIO_FINANCEIRO_GANHOS";
+            this.vwRELATORIOFINANCEIROGANHOSBindingSource.DataSource = this.dsDadosFinanceiro;
+            // 
             // vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter
             // 
             this.vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter.ClearBeforeFill = true;
+            // 
+            // rELATORIOFINANCEIROBindingSource
+            // 
+            this.rELATORIOFINANCEIROBindingSource.DataMember = "RELATORIO_FINANCEIRO";
+            this.rELATORIOFINANCEIROBindingSource.DataSource = this.dsDadosFinanceiro;
+            // 
+            // rELATORIO_FINANCEIROTableAdapter
+            // 
+            this.rELATORIO_FINANCEIROTableAdapter.ClearBeforeFill = true;
             // 
             // frmRelFinanceiro
             // 
@@ -488,11 +495,8 @@
             this.Text = "Relatórios Financeiros";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmRelFinanceiro_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIROGANHOSBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsDadosSaida1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rELATORIOFINANCEIROBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsDadosSaida)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIRODESPESASBindingSource)).EndInit();
             this.tabControl_Financeiro.ResumeLayout(false);
             this.tabPage_NF.ResumeLayout(false);
             this.tabPage_NF.PerformLayout();
@@ -501,6 +505,10 @@
             this.tabPage_CompraAntg.ResumeLayout(false);
             this.tabPage_CompraAntg.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsDadosFinanceiro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIRODESPESASBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vwRELATORIOFINANCEIROGANHOSBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rELATORIOFINANCEIROBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -535,15 +543,16 @@
         private System.Windows.Forms.Label label7;
         private Microsoft.Reporting.WinForms.ReportViewer rvGastos;
         private Dados.dsDadosSaida dsDadosSaida;
-        private System.Windows.Forms.BindingSource rELATORIOFINANCEIROBindingSource;
-        private Dados.dsDadosSaidaTableAdapters.RELATORIO_FINANCEIROTableAdapter rELATORIO_FINANCEIROTableAdapter;
         private Dados.dsDadosSaida dsDadosSaida1;
-        private System.Windows.Forms.BindingSource vwRELATORIOFINANCEIRODESPESASBindingSource;
-        private Dados.dsDadosSaidaTableAdapters.Vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter;
-        private System.Windows.Forms.BindingSource vwRELATORIOFINANCEIROGANHOSBindingSource;
-        private Dados.dsDadosSaidaTableAdapters.Vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter;
         private System.Windows.Forms.Button btnGastosLimpar;
         private System.Windows.Forms.Button btnVendasLimpar;
         private System.Windows.Forms.Button btnGeralLimpar;
+        private Dados.dsDadosFinanceiro dsDadosFinanceiro;
+        private System.Windows.Forms.BindingSource vwRELATORIOFINANCEIRODESPESASBindingSource;
+        private Dados.dsDadosFinanceiroTableAdapters.Vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter;
+        private System.Windows.Forms.BindingSource vwRELATORIOFINANCEIROGANHOSBindingSource;
+        private Dados.dsDadosFinanceiroTableAdapters.Vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter;
+        private System.Windows.Forms.BindingSource rELATORIOFINANCEIROBindingSource;
+        private Dados.dsDadosFinanceiroTableAdapters.RELATORIO_FINANCEIROTableAdapter rELATORIO_FINANCEIROTableAdapter;
     }
 }

@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|c:\\users\\labinfo\\documents\\github\\merchades\\prjmerchades\\formularios\\financeiro\\frmparcelasvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\frmparcelasvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|c:\\users\\labinfo\\documents\\github\\merchades\\prjmerchades\\formularios\\financeiro\\frmparcelasvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\frmparcelasvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\dados\\dsdadosfinanceiro.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\dados\\dsdadosfinanceiro.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\formularios\\financeiro\\frmrelfinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\frmrelfinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|c:\\users\\labinfo\\documents\\github\\merchades\\prjmerchades\\formularios\\financeiro\\frmrelfinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\frmrelfinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|c:\\users\\labinfo\\documents\\github\\merchades\\prjmerchades\\formularios\\financeiro\\frmrelfinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\frmrelfinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\dados\\dsdadossaida.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\dados\\dsdadossaida.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|c:\\users\\labinfo\\documents\\github\\merchades\\prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|c:\\users\\labinfo\\documents\\github\\merchades\\prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\formularios\\financeiro\\reportfinanceiro.rdlc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|solutionrelative:prjmerchades\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{255E382B-7771-45A0-8F3E-D411C21005A8}|prjMerchades\\prjMerchades.csproj|C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjmerchades\\formularios\\saida\\frmnotafiscal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,11 +54,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "frmParcelasVenda.cs",
+              "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs",
+              "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs",
+              "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs",
+              "RelativeToolTip": "prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB4AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:10:36.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmParcelasVenda.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs",
+              "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs",
+              "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs [Design]",
+              "RelativeToolTip": "prjMerchades\\Formularios\\Financeiro\\frmParcelasVenda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:04:24.868Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dsDadosFinanceiro.xsd",
+              "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Dados\\dsDadosFinanceiro.xsd",
+              "RelativeDocumentMoniker": "prjMerchades\\Dados\\dsDadosFinanceiro.xsd",
+              "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Dados\\dsDadosFinanceiro.xsd",
+              "RelativeToolTip": "prjMerchades\\Dados\\dsDadosFinanceiro.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-11-18T19:05:17.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ReportFinanceiro.rdlc",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc",
               "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc",
@@ -54,37 +103,48 @@
               "RelativeToolTip": "prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwJsDAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-11-17T23:22:35.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T23:22:35.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ReportFinanceiro.rdlc [Design]",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc",
               "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc",
               "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc [Design]",
               "RelativeToolTip": "prjMerchades\\Formularios\\Financeiro\\ReportFinanceiro.rdlc [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-11-17T22:42:58.788Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-17T22:42:58.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "frmRelFinanceiro.cs",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmRelFinanceiro.cs",
               "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Financeiro\\frmRelFinanceiro.cs",
               "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmRelFinanceiro.cs",
               "RelativeToolTip": "prjMerchades\\Formularios\\Financeiro\\frmRelFinanceiro.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAxwDgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwFYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T22:26:38.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Program.cs",
+              "RelativeDocumentMoniker": "prjMerchades\\Program.cs",
+              "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Program.cs",
+              "RelativeToolTip": "prjMerchades\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T21:48:25.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmRelFinanceiro.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Financeiro\\frmRelFinanceiro.cs",
               "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Financeiro\\frmRelFinanceiro.cs",
@@ -96,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "frmMenu.cs",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Saida\\frmMenu.cs",
               "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Saida\\frmMenu.cs",
@@ -104,24 +164,22 @@
               "RelativeToolTip": "prjMerchades\\Formularios\\Saida\\frmMenu.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAWwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:01:00.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T12:01:00.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "frmNotaFiscal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Saida\\frmNotaFiscal.cs",
               "RelativeDocumentMoniker": "prjMerchades\\Formularios\\Saida\\frmNotaFiscal.cs",
               "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Formularios\\Saida\\frmNotaFiscal.cs [Design]",
               "RelativeToolTip": "prjMerchades\\Formularios\\Saida\\frmNotaFiscal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T11:56:13.485Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-01T11:56:13.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "dsDadosSaida.xsd",
               "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Dados\\dsDadosSaida.xsd",
               "RelativeDocumentMoniker": "prjMerchades\\Dados\\dsDadosSaida.xsd",
@@ -129,19 +187,6 @@
               "RelativeToolTip": "prjMerchades\\Dados\\dsDadosSaida.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2025-11-01T11:44:56.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Program.cs",
-              "RelativeDocumentMoniker": "prjMerchades\\Program.cs",
-              "ToolTip": "C:\\Users\\LabInfo\\Documents\\GitHub\\Merchades\\prjMerchades\\Program.cs",
-              "RelativeToolTip": "prjMerchades\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T21:48:25.874Z",
               "EditorCaption": ""
             }
           ]

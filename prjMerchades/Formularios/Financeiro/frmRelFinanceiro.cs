@@ -19,12 +19,13 @@ namespace prjMerchades.Formularios.Financeiro
 
         private void frmRelFinanceiro_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dsDadosSaida1.Vw_RELATORIO_FINANCEIRO_GANHOS' table. You can move, or remove it, as needed.
-            this.vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter.Fill(this.dsDadosSaida1.Vw_RELATORIO_FINANCEIRO_GANHOS);
-            // TODO: This line of code loads data into the 'dsDadosSaida1.Vw_RELATORIO_FINANCEIRO_DESPESAS' table. You can move, or remove it, as needed.
-            this.vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter.Fill(this.dsDadosSaida1.Vw_RELATORIO_FINANCEIRO_DESPESAS);
-            // TODO: This line of code loads data into the 'dsDadosSaida.RELATORIO_FINANCEIRO' table. You can move, or remove it, as needed.
-            this.rELATORIO_FINANCEIROTableAdapter.Fill(this.dsDadosSaida.RELATORIO_FINANCEIRO);
+            // TODO: This line of code loads data into the 'dsDadosFinanceiro.RELATORIO_FINANCEIRO' table. You can move, or remove it, as needed.
+            this.rELATORIO_FINANCEIROTableAdapter.Fill(this.dsDadosFinanceiro.RELATORIO_FINANCEIRO);
+            // TODO: This line of code loads data into the 'dsDadosFinanceiro.Vw_RELATORIO_FINANCEIRO_GANHOS' table. You can move, or remove it, as needed.
+            this.vw_RELATORIO_FINANCEIRO_GANHOSTableAdapter.Fill(this.dsDadosFinanceiro.Vw_RELATORIO_FINANCEIRO_GANHOS);
+            // TODO: This line of code loads data into the 'dsDadosFinanceiro.Vw_RELATORIO_FINANCEIRO_DESPESAS' table. You can move, or remove it, as needed.
+            this.vw_RELATORIO_FINANCEIRO_DESPESASTableAdapter.Fill(this.dsDadosFinanceiro.Vw_RELATORIO_FINANCEIRO_DESPESAS);
+
 
             this.rvGastos.RefreshReport();
             this.rvGeral.RefreshReport();

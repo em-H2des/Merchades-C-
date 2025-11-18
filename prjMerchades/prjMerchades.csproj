@@ -64,6 +64,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dados\dsDadosFinanceiro.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDadosFinanceiro.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dados\dsDadosSaida.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -92,6 +97,12 @@
     </Compile>
     <Compile Include="Formularios\Entrada\frmListagemFornecedor.Designer.cs">
       <DependentUpon>frmListagemFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Financeiro\frmParcelasVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Financeiro\frmParcelasVenda.Designer.cs">
+      <DependentUpon>frmParcelasVenda.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Financeiro\frmRelFinanceiro.cs">
       <SubType>Form</SubType>
@@ -169,6 +180,9 @@
     <EmbeddedResource Include="Formularios\Entrada\frmListagemFornecedor.resx">
       <DependentUpon>frmListagemFornecedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Financeiro\frmParcelasVenda.resx">
+      <DependentUpon>frmParcelasVenda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Financeiro\frmRelFinanceiro.resx">
       <DependentUpon>frmRelFinanceiro.cs</DependentUpon>
     </EmbeddedResource>
@@ -213,6 +227,17 @@
     <EmbeddedResource Include="Properties\ResourcesSaida.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Dados\dsDadosFinanceiro.xsc">
+      <DependentUpon>dsDadosFinanceiro.xsd</DependentUpon>
+    </None>
+    <None Include="Dados\dsDadosFinanceiro.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDadosFinanceiro.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dados\dsDadosFinanceiro.xss">
+      <DependentUpon>dsDadosFinanceiro.xsd</DependentUpon>
+    </None>
     <None Include="Dados\dsDadosSaida.xsc">
       <DependentUpon>dsDadosSaida.xsd</DependentUpon>
     </None>
