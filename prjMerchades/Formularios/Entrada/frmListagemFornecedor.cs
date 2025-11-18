@@ -21,74 +21,47 @@ namespace prjMerchades.Formularios.Entrada
 
         private void frmListagemFornecedor_Load(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'dsDadosEntrada.COLUNASFORNECEDOR'. Você pode movê-la ou removê-la conforme necessário.
-            this.cOLUNASFORNECEDORTableAdapter.Fill(this.dsDadosEntrada.COLUNASFORNECEDOR);
             // TODO: esta linha de código carrega dados na tabela 'dsDadosEntrada.FORNECEDOR'. Você pode movê-la ou removê-la conforme necessário.
             this.fORNECEDORTableAdapter.Fill(this.dsDadosEntrada.FORNECEDOR);
             this.ReportViewerFornec.RefreshReport();
-
-            if (cmbFiltro.Items.Count > 0) cmbFiltro.SelectedIndex = 0;
-            txtBox_TxtFiltro.Enabled = false;
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
-            string vColuna, vProcurar, vTexto, vFiltro;
+            string vColuna, vProcurar, vTexto, vFiltro = "";
 
-            vColuna = cmbColunas.SelectedItem.ToString();
+            vColuna = cmbColunas.Text;
             vProcurar = cmbFiltro.Text;
-            vTexto = txtBox_TxtFiltro.Text.Trim().Replace("'", "''");
-            vFiltro = "";
+            vTexto = txtFiltro.Text.Trim().Replace("'", "''");
 
-            switch (vProcurar)
+            vFiltro = vColuna;
+
+            if (vProcurar == "Que começa com")
             {
-                case "Todos":
-                    // Remove qualquer filtro existente
-                    fORNECEDORBindingSource.RemoveFilter();
-                    txtBox_TxtFiltro.Text = "";
-                    return;
-
-                case "Que começa com":
-                    if (string.IsNullOrEmpty(vTexto)) break;
-                    vFiltro = $"CONVERT([{vColuna}], 'System.String') LIKE '{vTexto}%'";
-                    break;
-
-                case "Que contém":
-                    if (string.IsNullOrEmpty(vTexto)) break;
-                    vFiltro = $"CONVERT([{vColuna}], 'System.String') LIKE '%{vTexto}%'";
-                    break;
-
-                case "Que termina com":
-                    if (string.IsNullOrEmpty(vTexto)) break;
-                    vFiltro = $"CONVERT([{vColuna}], 'System.String') LIKE '%{vTexto}'";
-                    break;
-
-                default:
-                    fORNECEDORBindingSource.RemoveFilter();
-                    return;
+                vFiltro += " like '" + vTexto + "%'";
             }
 
-            if (!string.IsNullOrEmpty(vFiltro))
+            else if (vProcurar == "Que contém")
             {
-                fORNECEDORBindingSource.Filter = vFiltro;
+                vFiltro += " like '%" + vTexto + "%'";
             }
+
+            else if (vProcurar == "Que termina com")
+            {
+                vFiltro += " like '%" + vTexto + "'";
+            }
+
+            else if (vProcurar == "Igual a")
+            {
+                vFiltro += " = '" + vTexto + "'";
+            }
+
             else
             {
-                fORNECEDORBindingSource.RemoveFilter();
+                vFiltro = "";
             }
-        }
-
-        private void cmbBox_Filtro_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cmbFiltro.Text == "Todos")
-            {
-                txtBox_TxtFiltro.Text = "";
-                txtBox_TxtFiltro.Enabled = false;
-            }
-            else
-            {
-                txtBox_TxtFiltro.Enabled = true;
-            }
+            this.fORNECEDORBindingSource.Filter = vFiltro;
+            this.ReportViewerFornec.RefreshReport();
         }
     }
 }
