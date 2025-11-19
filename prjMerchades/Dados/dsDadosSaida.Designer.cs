@@ -40,8 +40,6 @@ namespace prjMerchades.Dados {
         
         private global::System.Data.DataRelation relationFK__NOTA_FISC__ID_ME__2645B050;
         
-        private global::System.Data.DataRelation relationFK__NOTA_FISC__ID_IT__59C55456;
-        
         private global::System.Data.DataRelation relationFK__ITENS_NOT__ID_PR__58D1301D;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
@@ -324,7 +322,6 @@ namespace prjMerchades.Dados {
             }
             this.relationFK__ESTOQUE__ID_PROD__634EBE90 = this.Relations["FK__ESTOQUE__ID_PROD__634EBE90"];
             this.relationFK__NOTA_FISC__ID_ME__2645B050 = this.Relations["FK__NOTA_FISC__ID_ME__2645B050"];
-            this.relationFK__NOTA_FISC__ID_IT__59C55456 = this.Relations["FK__NOTA_FISC__ID_IT__59C55456"];
             this.relationFK__ITENS_NOT__ID_PR__58D1301D = this.Relations["FK__ITENS_NOT__ID_PR__58D1301D"];
         }
         
@@ -356,10 +353,6 @@ namespace prjMerchades.Dados {
                         this.tableMETODO_PAGAMENTO.ID_METODO_PAGAMENTOColumn}, new global::System.Data.DataColumn[] {
                         this.tableNOTA_FISCAL_VENDA.ID_METODO_PAGAMENTOColumn}, false);
             this.Relations.Add(this.relationFK__NOTA_FISC__ID_ME__2645B050);
-            this.relationFK__NOTA_FISC__ID_IT__59C55456 = new global::System.Data.DataRelation("FK__NOTA_FISC__ID_IT__59C55456", new global::System.Data.DataColumn[] {
-                        this.tableITENS_NOTA_VENDA.ID_ITENS_NOTA_VENDAColumn}, new global::System.Data.DataColumn[] {
-                        this.tableNOTA_FISCAL_VENDA.ID_ITENS_NOTA_VENDAColumn}, false);
-            this.Relations.Add(this.relationFK__NOTA_FISC__ID_IT__59C55456);
             this.relationFK__ITENS_NOT__ID_PR__58D1301D = new global::System.Data.DataRelation("FK__ITENS_NOT__ID_PR__58D1301D", new global::System.Data.DataColumn[] {
                         this.tablePRODUTOS.ID_PRODUTOSColumn}, new global::System.Data.DataColumn[] {
                         this.tableITENS_NOTA_VENDA.ID_PRODUTOSColumn}, false);
@@ -803,13 +796,7 @@ namespace prjMerchades.Dados {
             
             private global::System.Data.DataColumn columnSTATUS_VENDA;
             
-            private global::System.Data.DataColumn columnID_CLIENTE;
-            
-            private global::System.Data.DataColumn columnID_FORNECEDOR;
-            
             private global::System.Data.DataColumn columnID_METODO_PAGAMENTO;
-            
-            private global::System.Data.DataColumn columnID_ITENS_NOTA_VENDA;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -902,33 +889,9 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn ID_CLIENTEColumn {
-                get {
-                    return this.columnID_CLIENTE;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn ID_FORNECEDORColumn {
-                get {
-                    return this.columnID_FORNECEDOR;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ID_METODO_PAGAMENTOColumn {
                 get {
                     return this.columnID_METODO_PAGAMENTO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn ID_ITENS_NOTA_VENDAColumn {
-                get {
-                    return this.columnID_ITENS_NOTA_VENDA;
                 }
             }
             
@@ -969,7 +932,7 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public NOTA_FISCAL_VENDARow AddNOTA_FISCAL_VENDARow(System.DateTime DATA_EMISSAO, decimal VALOR_VENDA, int COD_NOTA_VENDA, int QTD_PARCELAS, string OBSERVACAO, string STATUS_VENDA, int ID_CLIENTE, int ID_FORNECEDOR, METODO_PAGAMENTORow parentMETODO_PAGAMENTORowByFK__NOTA_FISC__ID_ME__2645B050, ITENS_NOTA_VENDARow parentITENS_NOTA_VENDARowByFK__NOTA_FISC__ID_IT__59C55456) {
+            public NOTA_FISCAL_VENDARow AddNOTA_FISCAL_VENDARow(System.DateTime DATA_EMISSAO, decimal VALOR_VENDA, int COD_NOTA_VENDA, int QTD_PARCELAS, string OBSERVACAO, string STATUS_VENDA, METODO_PAGAMENTORow parentMETODO_PAGAMENTORowByFK__NOTA_FISC__ID_ME__2645B050) {
                 NOTA_FISCAL_VENDARow rowNOTA_FISCAL_VENDARow = ((NOTA_FISCAL_VENDARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -979,15 +942,9 @@ namespace prjMerchades.Dados {
                         QTD_PARCELAS,
                         OBSERVACAO,
                         STATUS_VENDA,
-                        ID_CLIENTE,
-                        ID_FORNECEDOR,
-                        null,
                         null};
                 if ((parentMETODO_PAGAMENTORowByFK__NOTA_FISC__ID_ME__2645B050 != null)) {
-                    columnValuesArray[9] = parentMETODO_PAGAMENTORowByFK__NOTA_FISC__ID_ME__2645B050[0];
-                }
-                if ((parentITENS_NOTA_VENDARowByFK__NOTA_FISC__ID_IT__59C55456 != null)) {
-                    columnValuesArray[10] = parentITENS_NOTA_VENDARowByFK__NOTA_FISC__ID_IT__59C55456[0];
+                    columnValuesArray[7] = parentMETODO_PAGAMENTORowByFK__NOTA_FISC__ID_ME__2645B050[0];
                 }
                 rowNOTA_FISCAL_VENDARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowNOTA_FISCAL_VENDARow);
@@ -1025,10 +982,7 @@ namespace prjMerchades.Dados {
                 this.columnQTD_PARCELAS = base.Columns["QTD_PARCELAS"];
                 this.columnOBSERVACAO = base.Columns["OBSERVACAO"];
                 this.columnSTATUS_VENDA = base.Columns["STATUS_VENDA"];
-                this.columnID_CLIENTE = base.Columns["ID_CLIENTE"];
-                this.columnID_FORNECEDOR = base.Columns["ID_FORNECEDOR"];
                 this.columnID_METODO_PAGAMENTO = base.Columns["ID_METODO_PAGAMENTO"];
-                this.columnID_ITENS_NOTA_VENDA = base.Columns["ID_ITENS_NOTA_VENDA"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1048,14 +1002,8 @@ namespace prjMerchades.Dados {
                 base.Columns.Add(this.columnOBSERVACAO);
                 this.columnSTATUS_VENDA = new global::System.Data.DataColumn("STATUS_VENDA", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSTATUS_VENDA);
-                this.columnID_CLIENTE = new global::System.Data.DataColumn("ID_CLIENTE", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnID_CLIENTE);
-                this.columnID_FORNECEDOR = new global::System.Data.DataColumn("ID_FORNECEDOR", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnID_FORNECEDOR);
                 this.columnID_METODO_PAGAMENTO = new global::System.Data.DataColumn("ID_METODO_PAGAMENTO", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnID_METODO_PAGAMENTO);
-                this.columnID_ITENS_NOTA_VENDA = new global::System.Data.DataColumn("ID_ITENS_NOTA_VENDA", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnID_ITENS_NOTA_VENDA);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID_NOTA_VENDA}, true));
                 this.columnID_NOTA_VENDA.AutoIncrement = true;
@@ -2112,9 +2060,9 @@ namespace prjMerchades.Dados {
             
             private global::System.Data.DataColumn columnTIPO_UNITARIO;
             
-            private global::System.Data.DataColumn columnCODIGO_DE_BARRAS;
-            
             private global::System.Data.DataColumn columnPRECO_PRODUTOS;
+            
+            private global::System.Data.DataColumn columnCODIGO_DE_BARRAS;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -2183,17 +2131,17 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn CODIGO_DE_BARRASColumn {
+            public global::System.Data.DataColumn PRECO_PRODUTOSColumn {
                 get {
-                    return this.columnCODIGO_DE_BARRAS;
+                    return this.columnPRECO_PRODUTOS;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn PRECO_PRODUTOSColumn {
+            public global::System.Data.DataColumn CODIGO_DE_BARRASColumn {
                 get {
-                    return this.columnPRECO_PRODUTOS;
+                    return this.columnCODIGO_DE_BARRAS;
                 }
             }
             
@@ -2234,15 +2182,15 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ResumoEstoqueRow AddResumoEstoqueRow(string NOME_PRODUTOS, int QTD_ESTOQUE, string TIPO_PRODUTOS, string TIPO_UNITARIO, string CODIGO_DE_BARRAS, decimal PRECO_PRODUTOS) {
+            public ResumoEstoqueRow AddResumoEstoqueRow(string NOME_PRODUTOS, int QTD_ESTOQUE, string TIPO_PRODUTOS, string TIPO_UNITARIO, decimal PRECO_PRODUTOS, int CODIGO_DE_BARRAS) {
                 ResumoEstoqueRow rowResumoEstoqueRow = ((ResumoEstoqueRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         NOME_PRODUTOS,
                         QTD_ESTOQUE,
                         TIPO_PRODUTOS,
                         TIPO_UNITARIO,
-                        CODIGO_DE_BARRAS,
-                        PRECO_PRODUTOS};
+                        PRECO_PRODUTOS,
+                        CODIGO_DE_BARRAS};
                 rowResumoEstoqueRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowResumoEstoqueRow);
                 return rowResumoEstoqueRow;
@@ -2269,8 +2217,8 @@ namespace prjMerchades.Dados {
                 this.columnQTD_ESTOQUE = base.Columns["QTD_ESTOQUE"];
                 this.columnTIPO_PRODUTOS = base.Columns["TIPO_PRODUTOS"];
                 this.columnTIPO_UNITARIO = base.Columns["TIPO_UNITARIO"];
-                this.columnCODIGO_DE_BARRAS = base.Columns["CODIGO_DE_BARRAS"];
                 this.columnPRECO_PRODUTOS = base.Columns["PRECO_PRODUTOS"];
+                this.columnCODIGO_DE_BARRAS = base.Columns["CODIGO_DE_BARRAS"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2284,15 +2232,14 @@ namespace prjMerchades.Dados {
                 base.Columns.Add(this.columnTIPO_PRODUTOS);
                 this.columnTIPO_UNITARIO = new global::System.Data.DataColumn("TIPO_UNITARIO", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTIPO_UNITARIO);
-                this.columnCODIGO_DE_BARRAS = new global::System.Data.DataColumn("CODIGO_DE_BARRAS", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCODIGO_DE_BARRAS);
                 this.columnPRECO_PRODUTOS = new global::System.Data.DataColumn("PRECO_PRODUTOS", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPRECO_PRODUTOS);
+                this.columnCODIGO_DE_BARRAS = new global::System.Data.DataColumn("CODIGO_DE_BARRAS", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCODIGO_DE_BARRAS);
                 this.columnNOME_PRODUTOS.MaxLength = 70;
                 this.columnQTD_ESTOQUE.ReadOnly = true;
                 this.columnTIPO_PRODUTOS.MaxLength = 30;
                 this.columnTIPO_UNITARIO.MaxLength = 30;
-                this.columnCODIGO_DE_BARRAS.MaxLength = 255;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2663,38 +2610,6 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public int ID_CLIENTE {
-                get {
-                    try {
-                        return ((int)(this[this.tableNOTA_FISCAL_VENDA.ID_CLIENTEColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("O valor da coluna \'ID_CLIENTE\' na tabela \'NOTA_FISCAL_VENDA\' é DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableNOTA_FISCAL_VENDA.ID_CLIENTEColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public int ID_FORNECEDOR {
-                get {
-                    try {
-                        return ((int)(this[this.tableNOTA_FISCAL_VENDA.ID_FORNECEDORColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("O valor da coluna \'ID_FORNECEDOR\' na tabela \'NOTA_FISCAL_VENDA\' é DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableNOTA_FISCAL_VENDA.ID_FORNECEDORColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ID_METODO_PAGAMENTO {
                 get {
                     try {
@@ -2711,39 +2626,12 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public int ID_ITENS_NOTA_VENDA {
-                get {
-                    try {
-                        return ((int)(this[this.tableNOTA_FISCAL_VENDA.ID_ITENS_NOTA_VENDAColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("O valor da coluna \'ID_ITENS_NOTA_VENDA\' na tabela \'NOTA_FISCAL_VENDA\' é DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableNOTA_FISCAL_VENDA.ID_ITENS_NOTA_VENDAColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public METODO_PAGAMENTORow METODO_PAGAMENTORow {
                 get {
                     return ((METODO_PAGAMENTORow)(this.GetParentRow(this.Table.ParentRelations["FK__NOTA_FISC__ID_ME__2645B050"])));
                 }
                 set {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__NOTA_FISC__ID_ME__2645B050"]);
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ITENS_NOTA_VENDARow ITENS_NOTA_VENDARow {
-                get {
-                    return ((ITENS_NOTA_VENDARow)(this.GetParentRow(this.Table.ParentRelations["FK__NOTA_FISC__ID_IT__59C55456"])));
-                }
-                set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__NOTA_FISC__ID_IT__59C55456"]);
                 }
             }
             
@@ -2821,30 +2709,6 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsID_CLIENTENull() {
-                return this.IsNull(this.tableNOTA_FISCAL_VENDA.ID_CLIENTEColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetID_CLIENTENull() {
-                this[this.tableNOTA_FISCAL_VENDA.ID_CLIENTEColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsID_FORNECEDORNull() {
-                return this.IsNull(this.tableNOTA_FISCAL_VENDA.ID_FORNECEDORColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetID_FORNECEDORNull() {
-                this[this.tableNOTA_FISCAL_VENDA.ID_FORNECEDORColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsID_METODO_PAGAMENTONull() {
                 return this.IsNull(this.tableNOTA_FISCAL_VENDA.ID_METODO_PAGAMENTOColumn);
             }
@@ -2853,18 +2717,6 @@ namespace prjMerchades.Dados {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetID_METODO_PAGAMENTONull() {
                 this[this.tableNOTA_FISCAL_VENDA.ID_METODO_PAGAMENTOColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsID_ITENS_NOTA_VENDANull() {
-                return this.IsNull(this.tableNOTA_FISCAL_VENDA.ID_ITENS_NOTA_VENDAColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetID_ITENS_NOTA_VENDANull() {
-                this[this.tableNOTA_FISCAL_VENDA.ID_ITENS_NOTA_VENDAColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3212,17 +3064,6 @@ namespace prjMerchades.Dados {
             public void SetID_PRODUTOSNull() {
                 this[this.tableITENS_NOTA_VENDA.ID_PRODUTOSColumn] = global::System.Convert.DBNull;
             }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public NOTA_FISCAL_VENDARow[] GetNOTA_FISCAL_VENDARows() {
-                if ((this.Table.ChildRelations["FK__NOTA_FISC__ID_IT__59C55456"] == null)) {
-                    return new NOTA_FISCAL_VENDARow[0];
-                }
-                else {
-                    return ((NOTA_FISCAL_VENDARow[])(base.GetChildRows(this.Table.ChildRelations["FK__NOTA_FISC__ID_IT__59C55456"])));
-                }
-            }
         }
         
         /// <summary>
@@ -3305,22 +3146,6 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string CODIGO_DE_BARRAS {
-                get {
-                    try {
-                        return ((string)(this[this.tableResumoEstoque.CODIGO_DE_BARRASColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("O valor da coluna \'CODIGO_DE_BARRAS\' na tabela \'ResumoEstoque\' é DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableResumoEstoque.CODIGO_DE_BARRASColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public decimal PRECO_PRODUTOS {
                 get {
                     try {
@@ -3332,6 +3157,22 @@ namespace prjMerchades.Dados {
                 }
                 set {
                     this[this.tableResumoEstoque.PRECO_PRODUTOSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int CODIGO_DE_BARRAS {
+                get {
+                    try {
+                        return ((int)(this[this.tableResumoEstoque.CODIGO_DE_BARRASColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("O valor da coluna \'CODIGO_DE_BARRAS\' na tabela \'ResumoEstoque\' é DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableResumoEstoque.CODIGO_DE_BARRASColumn] = value;
                 }
             }
             
@@ -3385,18 +3226,6 @@ namespace prjMerchades.Dados {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsCODIGO_DE_BARRASNull() {
-                return this.IsNull(this.tableResumoEstoque.CODIGO_DE_BARRASColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetCODIGO_DE_BARRASNull() {
-                this[this.tableResumoEstoque.CODIGO_DE_BARRASColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsPRECO_PRODUTOSNull() {
                 return this.IsNull(this.tableResumoEstoque.PRECO_PRODUTOSColumn);
             }
@@ -3405,6 +3234,18 @@ namespace prjMerchades.Dados {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetPRECO_PRODUTOSNull() {
                 this[this.tableResumoEstoque.PRECO_PRODUTOSColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsCODIGO_DE_BARRASNull() {
+                return this.IsNull(this.tableResumoEstoque.CODIGO_DE_BARRASColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetCODIGO_DE_BARRASNull() {
+                this[this.tableResumoEstoque.CODIGO_DE_BARRASColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -4137,14 +3978,11 @@ SELECT ID_ESTOQUE, QTD_ESTOQUE, ID_PRODUTOS, ID_NOTA_FISCAL_FORNEC FROM ESTOQUE 
             tableMapping.ColumnMappings.Add("QTD_PARCELAS", "QTD_PARCELAS");
             tableMapping.ColumnMappings.Add("OBSERVACAO", "OBSERVACAO");
             tableMapping.ColumnMappings.Add("STATUS_VENDA", "STATUS_VENDA");
-            tableMapping.ColumnMappings.Add("ID_CLIENTE", "ID_CLIENTE");
-            tableMapping.ColumnMappings.Add("ID_FORNECEDOR", "ID_FORNECEDOR");
             tableMapping.ColumnMappings.Add("ID_METODO_PAGAMENTO", "ID_METODO_PAGAMENTO");
-            tableMapping.ColumnMappings.Add("ID_ITENS_NOTA_VENDA", "ID_ITENS_NOTA_VENDA");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[NOTA_FISCAL_VENDA] WHERE (([ID_NOTA_VENDA] = @Original_ID_NOTA_VENDA) AND ((@IsNull_DATA_EMISSAO = 1 AND [DATA_EMISSAO] IS NULL) OR ([DATA_EMISSAO] = @Original_DATA_EMISSAO)) AND ((@IsNull_VALOR_VENDA = 1 AND [VALOR_VENDA] IS NULL) OR ([VALOR_VENDA] = @Original_VALOR_VENDA)) AND ((@IsNull_COD_NOTA_VENDA = 1 AND [COD_NOTA_VENDA] IS NULL) OR ([COD_NOTA_VENDA] = @Original_COD_NOTA_VENDA)) AND ((@IsNull_QTD_PARCELAS = 1 AND [QTD_PARCELAS] IS NULL) OR ([QTD_PARCELAS] = @Original_QTD_PARCELAS)) AND ((@IsNull_OBSERVACAO = 1 AND [OBSERVACAO] IS NULL) OR ([OBSERVACAO] = @Original_OBSERVACAO)) AND ((@IsNull_STATUS_VENDA = 1 AND [STATUS_VENDA] IS NULL) OR ([STATUS_VENDA] = @Original_STATUS_VENDA)) AND ((@IsNull_ID_CLIENTE = 1 AND [ID_CLIENTE] IS NULL) OR ([ID_CLIENTE] = @Original_ID_CLIENTE)) AND ((@IsNull_ID_FORNECEDOR = 1 AND [ID_FORNECEDOR] IS NULL) OR ([ID_FORNECEDOR] = @Original_ID_FORNECEDOR)) AND ((@IsNull_ID_METODO_PAGAMENTO = 1 AND [ID_METODO_PAGAMENTO] IS NULL) OR ([ID_METODO_PAGAMENTO] = @Original_ID_METODO_PAGAMENTO)) AND ((@IsNull_ID_ITENS_NOTA_VENDA = 1 AND [ID_ITENS_NOTA_VENDA] IS NULL) OR ([ID_ITENS_NOTA_VENDA] = @Original_ID_ITENS_NOTA_VENDA)))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[NOTA_FISCAL_VENDA] WHERE (([ID_NOTA_VENDA] = @Original_ID_NOTA_VENDA) AND ((@IsNull_DATA_EMISSAO = 1 AND [DATA_EMISSAO] IS NULL) OR ([DATA_EMISSAO] = @Original_DATA_EMISSAO)) AND ((@IsNull_VALOR_VENDA = 1 AND [VALOR_VENDA] IS NULL) OR ([VALOR_VENDA] = @Original_VALOR_VENDA)) AND ((@IsNull_COD_NOTA_VENDA = 1 AND [COD_NOTA_VENDA] IS NULL) OR ([COD_NOTA_VENDA] = @Original_COD_NOTA_VENDA)) AND ((@IsNull_QTD_PARCELAS = 1 AND [QTD_PARCELAS] IS NULL) OR ([QTD_PARCELAS] = @Original_QTD_PARCELAS)) AND ((@IsNull_OBSERVACAO = 1 AND [OBSERVACAO] IS NULL) OR ([OBSERVACAO] = @Original_OBSERVACAO)) AND ((@IsNull_STATUS_VENDA = 1 AND [STATUS_VENDA] IS NULL) OR ([STATUS_VENDA] = @Original_STATUS_VENDA)) AND ((@IsNull_ID_METODO_PAGAMENTO = 1 AND [ID_METODO_PAGAMENTO] IS NULL) OR ([ID_METODO_PAGAMENTO] = @Original_ID_METODO_PAGAMENTO)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_NOTA_VENDA", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DATA_EMISSAO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DATA_EMISSAO", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
@@ -4159,18 +3997,12 @@ SELECT ID_ESTOQUE, QTD_ESTOQUE, ID_PRODUTOS, ID_NOTA_FISCAL_FORNEC FROM ESTOQUE 
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_OBSERVACAO", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "OBSERVACAO", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_STATUS_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_VENDA", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_STATUS_VENDA", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_VENDA", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_CLIENTE", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_CLIENTE", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_CLIENTE", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_CLIENTE", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_FORNECEDOR", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_FORNECEDOR", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_FORNECEDOR", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_FORNECEDOR", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_METODO_PAGAMENTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_METODO_PAGAMENTO", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_METODO_PAGAMENTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_METODO_PAGAMENTO", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_ITENS_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_ITENS_NOTA_VENDA", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_ITENS_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_ITENS_NOTA_VENDA", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[NOTA_FISCAL_VENDA] ([DATA_EMISSAO], [VALOR_VENDA], [COD_NOTA_VENDA], [QTD_PARCELAS], [OBSERVACAO], [STATUS_VENDA], [ID_CLIENTE], [ID_FORNECEDOR], [ID_METODO_PAGAMENTO], [ID_ITENS_NOTA_VENDA]) VALUES (@DATA_EMISSAO, @VALOR_VENDA, @COD_NOTA_VENDA, @QTD_PARCELAS, @OBSERVACAO, @STATUS_VENDA, @ID_CLIENTE, @ID_FORNECEDOR, @ID_METODO_PAGAMENTO, @ID_ITENS_NOTA_VENDA);
-SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, OBSERVACAO, STATUS_VENDA, ID_CLIENTE, ID_FORNECEDOR, ID_METODO_PAGAMENTO, ID_ITENS_NOTA_VENDA FROM NOTA_FISCAL_VENDA WHERE (ID_NOTA_VENDA = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[NOTA_FISCAL_VENDA] ([DATA_EMISSAO], [VALOR_VENDA], [COD_NOTA_VENDA], [QTD_PARCELAS], [OBSERVACAO], [STATUS_VENDA], [ID_METODO_PAGAMENTO]) VALUES (@DATA_EMISSAO, @VALOR_VENDA, @COD_NOTA_VENDA, @QTD_PARCELAS, @OBSERVACAO, @STATUS_VENDA, @ID_METODO_PAGAMENTO);
+SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, OBSERVACAO, STATUS_VENDA, ID_METODO_PAGAMENTO FROM NOTA_FISCAL_VENDA WHERE (ID_NOTA_VENDA = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DATA_EMISSAO", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DATA_EMISSAO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@VALOR_VENDA", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "VALOR_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -4178,35 +4010,11 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@QTD_PARCELAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "QTD_PARCELAS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@OBSERVACAO", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "OBSERVACAO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@STATUS_VENDA", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_CLIENTE", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_CLIENTE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_FORNECEDOR", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_FORNECEDOR", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_METODO_PAGAMENTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_METODO_PAGAMENTO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_ITENS_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_ITENS_NOTA_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[NOTA_FISCAL_VENDA] SET [DATA_EMISSAO] = @DATA_EMISSAO, [VALOR_VENDA" +
-                "] = @VALOR_VENDA, [COD_NOTA_VENDA] = @COD_NOTA_VENDA, [QTD_PARCELAS] = @QTD_PARC" +
-                "ELAS, [OBSERVACAO] = @OBSERVACAO, [STATUS_VENDA] = @STATUS_VENDA, [ID_CLIENTE] =" +
-                " @ID_CLIENTE, [ID_FORNECEDOR] = @ID_FORNECEDOR, [ID_METODO_PAGAMENTO] = @ID_METO" +
-                "DO_PAGAMENTO, [ID_ITENS_NOTA_VENDA] = @ID_ITENS_NOTA_VENDA WHERE (([ID_NOTA_VEND" +
-                "A] = @Original_ID_NOTA_VENDA) AND ((@IsNull_DATA_EMISSAO = 1 AND [DATA_EMISSAO] " +
-                "IS NULL) OR ([DATA_EMISSAO] = @Original_DATA_EMISSAO)) AND ((@IsNull_VALOR_VENDA" +
-                " = 1 AND [VALOR_VENDA] IS NULL) OR ([VALOR_VENDA] = @Original_VALOR_VENDA)) AND " +
-                "((@IsNull_COD_NOTA_VENDA = 1 AND [COD_NOTA_VENDA] IS NULL) OR ([COD_NOTA_VENDA] " +
-                "= @Original_COD_NOTA_VENDA)) AND ((@IsNull_QTD_PARCELAS = 1 AND [QTD_PARCELAS] I" +
-                "S NULL) OR ([QTD_PARCELAS] = @Original_QTD_PARCELAS)) AND ((@IsNull_OBSERVACAO =" +
-                " 1 AND [OBSERVACAO] IS NULL) OR ([OBSERVACAO] = @Original_OBSERVACAO)) AND ((@Is" +
-                "Null_STATUS_VENDA = 1 AND [STATUS_VENDA] IS NULL) OR ([STATUS_VENDA] = @Original" +
-                "_STATUS_VENDA)) AND ((@IsNull_ID_CLIENTE = 1 AND [ID_CLIENTE] IS NULL) OR ([ID_C" +
-                "LIENTE] = @Original_ID_CLIENTE)) AND ((@IsNull_ID_FORNECEDOR = 1 AND [ID_FORNECE" +
-                "DOR] IS NULL) OR ([ID_FORNECEDOR] = @Original_ID_FORNECEDOR)) AND ((@IsNull_ID_M" +
-                "ETODO_PAGAMENTO = 1 AND [ID_METODO_PAGAMENTO] IS NULL) OR ([ID_METODO_PAGAMENTO]" +
-                " = @Original_ID_METODO_PAGAMENTO)) AND ((@IsNull_ID_ITENS_NOTA_VENDA = 1 AND [ID" +
-                "_ITENS_NOTA_VENDA] IS NULL) OR ([ID_ITENS_NOTA_VENDA] = @Original_ID_ITENS_NOTA_" +
-                "VENDA)));\nSELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_P" +
-                "ARCELAS, OBSERVACAO, STATUS_VENDA, ID_CLIENTE, ID_FORNECEDOR, ID_METODO_PAGAMENT" +
-                "O, ID_ITENS_NOTA_VENDA FROM NOTA_FISCAL_VENDA WHERE (ID_NOTA_VENDA = @ID_NOTA_VE" +
-                "NDA)";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[NOTA_FISCAL_VENDA] SET [DATA_EMISSAO] = @DATA_EMISSAO, [VALOR_VENDA] = @VALOR_VENDA, [COD_NOTA_VENDA] = @COD_NOTA_VENDA, [QTD_PARCELAS] = @QTD_PARCELAS, [OBSERVACAO] = @OBSERVACAO, [STATUS_VENDA] = @STATUS_VENDA, [ID_METODO_PAGAMENTO] = @ID_METODO_PAGAMENTO WHERE (([ID_NOTA_VENDA] = @Original_ID_NOTA_VENDA) AND ((@IsNull_DATA_EMISSAO = 1 AND [DATA_EMISSAO] IS NULL) OR ([DATA_EMISSAO] = @Original_DATA_EMISSAO)) AND ((@IsNull_VALOR_VENDA = 1 AND [VALOR_VENDA] IS NULL) OR ([VALOR_VENDA] = @Original_VALOR_VENDA)) AND ((@IsNull_COD_NOTA_VENDA = 1 AND [COD_NOTA_VENDA] IS NULL) OR ([COD_NOTA_VENDA] = @Original_COD_NOTA_VENDA)) AND ((@IsNull_QTD_PARCELAS = 1 AND [QTD_PARCELAS] IS NULL) OR ([QTD_PARCELAS] = @Original_QTD_PARCELAS)) AND ((@IsNull_OBSERVACAO = 1 AND [OBSERVACAO] IS NULL) OR ([OBSERVACAO] = @Original_OBSERVACAO)) AND ((@IsNull_STATUS_VENDA = 1 AND [STATUS_VENDA] IS NULL) OR ([STATUS_VENDA] = @Original_STATUS_VENDA)) AND ((@IsNull_ID_METODO_PAGAMENTO = 1 AND [ID_METODO_PAGAMENTO] IS NULL) OR ([ID_METODO_PAGAMENTO] = @Original_ID_METODO_PAGAMENTO)));
+SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, OBSERVACAO, STATUS_VENDA, ID_METODO_PAGAMENTO FROM NOTA_FISCAL_VENDA WHERE (ID_NOTA_VENDA = @ID_NOTA_VENDA)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DATA_EMISSAO", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DATA_EMISSAO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@VALOR_VENDA", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "VALOR_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -4214,10 +4022,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@QTD_PARCELAS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "QTD_PARCELAS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@OBSERVACAO", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "OBSERVACAO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@STATUS_VENDA", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_CLIENTE", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_CLIENTE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_FORNECEDOR", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_FORNECEDOR", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_METODO_PAGAMENTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_METODO_PAGAMENTO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_ITENS_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_ITENS_NOTA_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_NOTA_VENDA", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_DATA_EMISSAO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DATA_EMISSAO", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DATA_EMISSAO", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DATA_EMISSAO", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -4231,14 +4036,8 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_OBSERVACAO", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "OBSERVACAO", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_STATUS_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_VENDA", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_STATUS_VENDA", global::System.Data.SqlDbType.Char, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_VENDA", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_CLIENTE", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_CLIENTE", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_CLIENTE", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_CLIENTE", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_FORNECEDOR", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_FORNECEDOR", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_FORNECEDOR", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_FORNECEDOR", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_METODO_PAGAMENTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_METODO_PAGAMENTO", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_METODO_PAGAMENTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_METODO_PAGAMENTO", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_ID_ITENS_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_ITENS_NOTA_VENDA", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID_ITENS_NOTA_VENDA", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_ITENS_NOTA_VENDA", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_NOTA_VENDA", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ID_NOTA_VENDA", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -4256,8 +4055,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, OB" +
-                "SERVACAO, STATUS_VENDA, ID_CLIENTE, ID_FORNECEDOR, ID_METODO_PAGAMENTO, ID_ITENS" +
-                "_NOTA_VENDA FROM dbo.NOTA_FISCAL_VENDA";
+                "SERVACAO, STATUS_VENDA, ID_METODO_PAGAMENTO FROM dbo.NOTA_FISCAL_VENDA";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -4318,7 +4116,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_ID_NOTA_VENDA, global::System.Nullable<global::System.DateTime> Original_DATA_EMISSAO, global::System.Nullable<decimal> Original_VALOR_VENDA, global::System.Nullable<int> Original_COD_NOTA_VENDA, global::System.Nullable<int> Original_QTD_PARCELAS, string Original_OBSERVACAO, string Original_STATUS_VENDA, global::System.Nullable<int> Original_ID_CLIENTE, global::System.Nullable<int> Original_ID_FORNECEDOR, global::System.Nullable<int> Original_ID_METODO_PAGAMENTO, global::System.Nullable<int> Original_ID_ITENS_NOTA_VENDA) {
+        public virtual int Delete(int Original_ID_NOTA_VENDA, global::System.Nullable<global::System.DateTime> Original_DATA_EMISSAO, global::System.Nullable<decimal> Original_VALOR_VENDA, global::System.Nullable<int> Original_COD_NOTA_VENDA, global::System.Nullable<int> Original_QTD_PARCELAS, string Original_OBSERVACAO, string Original_STATUS_VENDA, global::System.Nullable<int> Original_ID_METODO_PAGAMENTO) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_ID_NOTA_VENDA));
             if ((Original_DATA_EMISSAO.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(0));
@@ -4368,37 +4166,13 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
                 this.Adapter.DeleteCommand.Parameters[11].Value = ((object)(0));
                 this.Adapter.DeleteCommand.Parameters[12].Value = ((string)(Original_STATUS_VENDA));
             }
-            if ((Original_ID_CLIENTE.HasValue == true)) {
+            if ((Original_ID_METODO_PAGAMENTO.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[13].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[14].Value = ((int)(Original_ID_CLIENTE.Value));
+                this.Adapter.DeleteCommand.Parameters[14].Value = ((int)(Original_ID_METODO_PAGAMENTO.Value));
             }
             else {
                 this.Adapter.DeleteCommand.Parameters[13].Value = ((object)(1));
                 this.Adapter.DeleteCommand.Parameters[14].Value = global::System.DBNull.Value;
-            }
-            if ((Original_ID_FORNECEDOR.HasValue == true)) {
-                this.Adapter.DeleteCommand.Parameters[15].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[16].Value = ((int)(Original_ID_FORNECEDOR.Value));
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[15].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[16].Value = global::System.DBNull.Value;
-            }
-            if ((Original_ID_METODO_PAGAMENTO.HasValue == true)) {
-                this.Adapter.DeleteCommand.Parameters[17].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[18].Value = ((int)(Original_ID_METODO_PAGAMENTO.Value));
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[17].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[18].Value = global::System.DBNull.Value;
-            }
-            if ((Original_ID_ITENS_NOTA_VENDA.HasValue == true)) {
-                this.Adapter.DeleteCommand.Parameters[19].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[20].Value = ((int)(Original_ID_ITENS_NOTA_VENDA.Value));
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[19].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[20].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -4420,7 +4194,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(global::System.Nullable<global::System.DateTime> DATA_EMISSAO, global::System.Nullable<decimal> VALOR_VENDA, global::System.Nullable<int> COD_NOTA_VENDA, global::System.Nullable<int> QTD_PARCELAS, string OBSERVACAO, string STATUS_VENDA, global::System.Nullable<int> ID_CLIENTE, global::System.Nullable<int> ID_FORNECEDOR, global::System.Nullable<int> ID_METODO_PAGAMENTO, global::System.Nullable<int> ID_ITENS_NOTA_VENDA) {
+        public virtual int Insert(global::System.Nullable<global::System.DateTime> DATA_EMISSAO, global::System.Nullable<decimal> VALOR_VENDA, global::System.Nullable<int> COD_NOTA_VENDA, global::System.Nullable<int> QTD_PARCELAS, string OBSERVACAO, string STATUS_VENDA, global::System.Nullable<int> ID_METODO_PAGAMENTO) {
             if ((DATA_EMISSAO.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = ((System.DateTime)(DATA_EMISSAO.Value));
             }
@@ -4457,29 +4231,11 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             else {
                 this.Adapter.InsertCommand.Parameters[5].Value = ((string)(STATUS_VENDA));
             }
-            if ((ID_CLIENTE.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((int)(ID_CLIENTE.Value));
+            if ((ID_METODO_PAGAMENTO.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((int)(ID_METODO_PAGAMENTO.Value));
             }
             else {
                 this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            if ((ID_FORNECEDOR.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[7].Value = ((int)(ID_FORNECEDOR.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
-            }
-            if ((ID_METODO_PAGAMENTO.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[8].Value = ((int)(ID_METODO_PAGAMENTO.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            if ((ID_ITENS_NOTA_VENDA.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[9].Value = ((int)(ID_ITENS_NOTA_VENDA.Value));
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -4508,10 +4264,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
                     global::System.Nullable<int> QTD_PARCELAS, 
                     string OBSERVACAO, 
                     string STATUS_VENDA, 
-                    global::System.Nullable<int> ID_CLIENTE, 
-                    global::System.Nullable<int> ID_FORNECEDOR, 
                     global::System.Nullable<int> ID_METODO_PAGAMENTO, 
-                    global::System.Nullable<int> ID_ITENS_NOTA_VENDA, 
                     int Original_ID_NOTA_VENDA, 
                     global::System.Nullable<global::System.DateTime> Original_DATA_EMISSAO, 
                     global::System.Nullable<decimal> Original_VALOR_VENDA, 
@@ -4519,10 +4272,7 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
                     global::System.Nullable<int> Original_QTD_PARCELAS, 
                     string Original_OBSERVACAO, 
                     string Original_STATUS_VENDA, 
-                    global::System.Nullable<int> Original_ID_CLIENTE, 
-                    global::System.Nullable<int> Original_ID_FORNECEDOR, 
                     global::System.Nullable<int> Original_ID_METODO_PAGAMENTO, 
-                    global::System.Nullable<int> Original_ID_ITENS_NOTA_VENDA, 
                     int ID_NOTA_VENDA) {
             if ((DATA_EMISSAO.HasValue == true)) {
                 this.Adapter.UpdateCommand.Parameters[0].Value = ((System.DateTime)(DATA_EMISSAO.Value));
@@ -4560,112 +4310,70 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
             else {
                 this.Adapter.UpdateCommand.Parameters[5].Value = ((string)(STATUS_VENDA));
             }
-            if ((ID_CLIENTE.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(ID_CLIENTE.Value));
+            if ((ID_METODO_PAGAMENTO.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(ID_METODO_PAGAMENTO.Value));
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
             }
-            if ((ID_FORNECEDOR.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(ID_FORNECEDOR.Value));
+            this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(Original_ID_NOTA_VENDA));
+            if ((Original_DATA_EMISSAO.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[9].Value = ((System.DateTime)(Original_DATA_EMISSAO.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[7].Value = global::System.DBNull.Value;
-            }
-            if ((ID_METODO_PAGAMENTO.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[8].Value = ((int)(ID_METODO_PAGAMENTO.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            if ((ID_ITENS_NOTA_VENDA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((int)(ID_ITENS_NOTA_VENDA.Value));
-            }
-            else {
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
             }
-            this.Adapter.UpdateCommand.Parameters[10].Value = ((int)(Original_ID_NOTA_VENDA));
-            if ((Original_DATA_EMISSAO.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((System.DateTime)(Original_DATA_EMISSAO.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
-            }
             if ((Original_VALOR_VENDA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((decimal)(Original_VALOR_VENDA.Value));
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((decimal)(Original_VALOR_VENDA.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
             }
             if ((Original_COD_NOTA_VENDA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((int)(Original_COD_NOTA_VENDA.Value));
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(Original_COD_NOTA_VENDA.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
             }
             if ((Original_QTD_PARCELAS.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[18].Value = ((int)(Original_QTD_PARCELAS.Value));
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(Original_QTD_PARCELAS.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[18].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
             }
             if ((Original_OBSERVACAO == null)) {
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[20].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[17].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[20].Value = ((string)(Original_OBSERVACAO));
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(Original_OBSERVACAO));
             }
             if ((Original_STATUS_VENDA == null)) {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[19].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[22].Value = ((string)(Original_STATUS_VENDA));
-            }
-            if ((Original_ID_CLIENTE.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[23].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[24].Value = ((int)(Original_ID_CLIENTE.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[23].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[24].Value = global::System.DBNull.Value;
-            }
-            if ((Original_ID_FORNECEDOR.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[25].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[26].Value = ((int)(Original_ID_FORNECEDOR.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[25].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[26].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[19].Value = ((string)(Original_STATUS_VENDA));
             }
             if ((Original_ID_METODO_PAGAMENTO.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[27].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[28].Value = ((int)(Original_ID_METODO_PAGAMENTO.Value));
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[21].Value = ((int)(Original_ID_METODO_PAGAMENTO.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[27].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[28].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[21].Value = global::System.DBNull.Value;
             }
-            if ((Original_ID_ITENS_NOTA_VENDA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[29].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[30].Value = ((int)(Original_ID_ITENS_NOTA_VENDA.Value));
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[29].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[30].Value = global::System.DBNull.Value;
-            }
-            this.Adapter.UpdateCommand.Parameters[31].Value = ((int)(ID_NOTA_VENDA));
+            this.Adapter.UpdateCommand.Parameters[22].Value = ((int)(ID_NOTA_VENDA));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -4686,29 +4394,8 @@ SELECT ID_NOTA_VENDA, DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(
-                    global::System.Nullable<global::System.DateTime> DATA_EMISSAO, 
-                    global::System.Nullable<decimal> VALOR_VENDA, 
-                    global::System.Nullable<int> COD_NOTA_VENDA, 
-                    global::System.Nullable<int> QTD_PARCELAS, 
-                    string OBSERVACAO, 
-                    string STATUS_VENDA, 
-                    global::System.Nullable<int> ID_CLIENTE, 
-                    global::System.Nullable<int> ID_FORNECEDOR, 
-                    global::System.Nullable<int> ID_METODO_PAGAMENTO, 
-                    global::System.Nullable<int> ID_ITENS_NOTA_VENDA, 
-                    int Original_ID_NOTA_VENDA, 
-                    global::System.Nullable<global::System.DateTime> Original_DATA_EMISSAO, 
-                    global::System.Nullable<decimal> Original_VALOR_VENDA, 
-                    global::System.Nullable<int> Original_COD_NOTA_VENDA, 
-                    global::System.Nullable<int> Original_QTD_PARCELAS, 
-                    string Original_OBSERVACAO, 
-                    string Original_STATUS_VENDA, 
-                    global::System.Nullable<int> Original_ID_CLIENTE, 
-                    global::System.Nullable<int> Original_ID_FORNECEDOR, 
-                    global::System.Nullable<int> Original_ID_METODO_PAGAMENTO, 
-                    global::System.Nullable<int> Original_ID_ITENS_NOTA_VENDA) {
-            return this.Update(DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, OBSERVACAO, STATUS_VENDA, ID_CLIENTE, ID_FORNECEDOR, ID_METODO_PAGAMENTO, ID_ITENS_NOTA_VENDA, Original_ID_NOTA_VENDA, Original_DATA_EMISSAO, Original_VALOR_VENDA, Original_COD_NOTA_VENDA, Original_QTD_PARCELAS, Original_OBSERVACAO, Original_STATUS_VENDA, Original_ID_CLIENTE, Original_ID_FORNECEDOR, Original_ID_METODO_PAGAMENTO, Original_ID_ITENS_NOTA_VENDA, Original_ID_NOTA_VENDA);
+        public virtual int Update(global::System.Nullable<global::System.DateTime> DATA_EMISSAO, global::System.Nullable<decimal> VALOR_VENDA, global::System.Nullable<int> COD_NOTA_VENDA, global::System.Nullable<int> QTD_PARCELAS, string OBSERVACAO, string STATUS_VENDA, global::System.Nullable<int> ID_METODO_PAGAMENTO, int Original_ID_NOTA_VENDA, global::System.Nullable<global::System.DateTime> Original_DATA_EMISSAO, global::System.Nullable<decimal> Original_VALOR_VENDA, global::System.Nullable<int> Original_COD_NOTA_VENDA, global::System.Nullable<int> Original_QTD_PARCELAS, string Original_OBSERVACAO, string Original_STATUS_VENDA, global::System.Nullable<int> Original_ID_METODO_PAGAMENTO) {
+            return this.Update(DATA_EMISSAO, VALOR_VENDA, COD_NOTA_VENDA, QTD_PARCELAS, OBSERVACAO, STATUS_VENDA, ID_METODO_PAGAMENTO, Original_ID_NOTA_VENDA, Original_DATA_EMISSAO, Original_VALOR_VENDA, Original_COD_NOTA_VENDA, Original_QTD_PARCELAS, Original_OBSERVACAO, Original_STATUS_VENDA, Original_ID_METODO_PAGAMENTO, Original_ID_NOTA_VENDA);
         }
     }
     
@@ -5637,8 +5324,8 @@ SELECT DESCRICAO, ID_METODO_PAGAMENTO FROM METODO_PAGAMENTO WHERE (ID_METODO_PAG
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[ITENS_NOTA_VENDA] ([QTD_PRODUTO], [ID_PRODUTOS]) VALUES (@QTD_" +
-                "PRODUTO, @ID_PRODUTOS);\nSELECT ID_ITENS_NOTA_VENDA, QTD_PRODUTO, ID_PRODUTOS FRO" +
-                "M ITENS_NOTA_VENDA WHERE (ID_ITENS_NOTA_VENDA = SCOPE_IDENTITY())";
+                "PRODUTO, @ID_PRODUTOS);\r\nSELECT ID_ITENS_NOTA_VENDA, QTD_PRODUTO, ID_PRODUTOS FR" +
+                "OM ITENS_NOTA_VENDA WHERE (ID_ITENS_NOTA_VENDA = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@QTD_PRODUTO", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "QTD_PRODUTO", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID_PRODUTOS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID_PRODUTOS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -5983,8 +5670,8 @@ SELECT ID_ITENS_NOTA_VENDA, QTD_PRODUTO, ID_PRODUTOS FROM ITENS_NOTA_VENDA WHERE
             tableMapping.ColumnMappings.Add("QTD_ESTOQUE", "QTD_ESTOQUE");
             tableMapping.ColumnMappings.Add("TIPO_PRODUTOS", "TIPO_PRODUTOS");
             tableMapping.ColumnMappings.Add("TIPO_UNITARIO", "TIPO_UNITARIO");
-            tableMapping.ColumnMappings.Add("CODIGO_DE_BARRAS", "CODIGO_DE_BARRAS");
             tableMapping.ColumnMappings.Add("PRECO_PRODUTOS", "PRECO_PRODUTOS");
+            tableMapping.ColumnMappings.Add("CODIGO_DE_BARRAS", "CODIGO_DE_BARRAS");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -5992,7 +5679,7 @@ SELECT ID_ITENS_NOTA_VENDA, QTD_PRODUTO, ID_PRODUTOS FROM ITENS_NOTA_VENDA WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::prjMerchades.Properties.Settings.Default.ConnectionString;
+            this._connection.ConnectionString = global::prjMerchades.Properties.Settings.Default.db_240098_66_A_1_2024ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6003,7 +5690,7 @@ SELECT ID_ITENS_NOTA_VENDA, QTD_PRODUTO, ID_PRODUTOS FROM ITENS_NOTA_VENDA WHERE
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = @"SELECT 
     P.NOME_PRODUTOS, 
-    SUM(E.QTD_ESTOQUE) AS QTD_ESTOQUE,
+    SUM(E.QTD_ESTOQUE_ADDED) AS QTD_ESTOQUE,
     P.TIPO_PRODUTOS, 
     P.TIPO_UNITARIO, 
    P.PRECO_PRODUTOS, 
@@ -6247,15 +5934,6 @@ GROUP BY
                     allChangedRows.AddRange(updatedRows);
                 }
             }
-            if ((this._iTENS_NOTA_VENDATableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.ITENS_NOTA_VENDA.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
-                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
-                            && (0 < updatedRows.Length))) {
-                    result = (result + this._iTENS_NOTA_VENDATableAdapter.Update(updatedRows));
-                    allChangedRows.AddRange(updatedRows);
-                }
-            }
             if ((this._eSTOQUETableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.ESTOQUE.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
@@ -6271,6 +5949,15 @@ GROUP BY
                 if (((updatedRows != null) 
                             && (0 < updatedRows.Length))) {
                     result = (result + this._nOTA_FISCAL_VENDATableAdapter.Update(updatedRows));
+                    allChangedRows.AddRange(updatedRows);
+                }
+            }
+            if ((this._iTENS_NOTA_VENDATableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.ITENS_NOTA_VENDA.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
+                if (((updatedRows != null) 
+                            && (0 < updatedRows.Length))) {
+                    result = (result + this._iTENS_NOTA_VENDATableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
                 }
             }
@@ -6300,14 +5987,6 @@ GROUP BY
                     allAddedRows.AddRange(addedRows);
                 }
             }
-            if ((this._iTENS_NOTA_VENDATableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.ITENS_NOTA_VENDA.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
-                            && (0 < addedRows.Length))) {
-                    result = (result + this._iTENS_NOTA_VENDATableAdapter.Update(addedRows));
-                    allAddedRows.AddRange(addedRows);
-                }
-            }
             if ((this._eSTOQUETableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.ESTOQUE.Select(null, null, global::System.Data.DataViewRowState.Added);
                 if (((addedRows != null) 
@@ -6324,6 +6003,14 @@ GROUP BY
                     allAddedRows.AddRange(addedRows);
                 }
             }
+            if ((this._iTENS_NOTA_VENDATableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.ITENS_NOTA_VENDA.Select(null, null, global::System.Data.DataViewRowState.Added);
+                if (((addedRows != null) 
+                            && (0 < addedRows.Length))) {
+                    result = (result + this._iTENS_NOTA_VENDATableAdapter.Update(addedRows));
+                    allAddedRows.AddRange(addedRows);
+                }
+            }
             return result;
         }
         
@@ -6334,6 +6021,14 @@ GROUP BY
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private int UpdateDeletedRows(dsDadosSaida dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
+            if ((this._iTENS_NOTA_VENDATableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.ITENS_NOTA_VENDA.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+                if (((deletedRows != null) 
+                            && (0 < deletedRows.Length))) {
+                    result = (result + this._iTENS_NOTA_VENDATableAdapter.Update(deletedRows));
+                    allChangedRows.AddRange(deletedRows);
+                }
+            }
             if ((this._nOTA_FISCAL_VENDATableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.NOTA_FISCAL_VENDA.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
@@ -6347,14 +6042,6 @@ GROUP BY
                 if (((deletedRows != null) 
                             && (0 < deletedRows.Length))) {
                     result = (result + this._eSTOQUETableAdapter.Update(deletedRows));
-                    allChangedRows.AddRange(deletedRows);
-                }
-            }
-            if ((this._iTENS_NOTA_VENDATableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.ITENS_NOTA_VENDA.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
-                            && (0 < deletedRows.Length))) {
-                    result = (result + this._iTENS_NOTA_VENDATableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
                 }
             }
