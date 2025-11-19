@@ -916,3 +916,5 @@ C:\Users\agapi\Documents\GitHub\Merchades\prjMerchades\obj\Debug\prjMerch.B26AA8
 C:\Users\agapi\Documents\GitHub\Merchades\prjMerchades\bin\Debug\App.config
 C:\Users\LabInfo\Documents\GitHub\Merchades\prjMerchades\bin\Debug\App.config
 C:\Users\LabInfo\Documents\GitHub\Merchades\prjMerchades\bin\Debug\stdole.dll
+C:\Users\LabInfo\Documents\GitHub\Merchades\prjMerchades\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\LabInfo\Documents\GitHub\Merchades\prjMerchades\bin\Debug\System.Configuration.ConfigurationManager.xml

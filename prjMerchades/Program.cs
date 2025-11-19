@@ -20,7 +20,7 @@ namespace prjMerchades
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenuSaida());
+            Application.Run(new SplashScreen());
         }
     }
 }

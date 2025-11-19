@@ -53,6 +53,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.10.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -65,8 +68,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dados\dsDadosSaida.cs">
-      <DependentUpon>dsDadosSaida.xsd</DependentUpon>
+    <Compile Include="Dados\daDadosEntrada.cs">
+      <DependentUpon>daDadosEntrada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dados\daDadosEntrada.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>daDadosEntrada.xsd</DependentUpon>
     </Compile>
     <Compile Include="Dados\dsDadosSaida.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -217,6 +225,17 @@
     <EmbeddedResource Include="Properties\ResourcesSaida.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Dados\daDadosEntrada.xsc">
+      <DependentUpon>daDadosEntrada.xsd</DependentUpon>
+    </None>
+    <None Include="Dados\daDadosEntrada.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>daDadosEntrada.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dados\daDadosEntrada.xss">
+      <DependentUpon>daDadosEntrada.xsd</DependentUpon>
+    </None>
     <None Include="Dados\dsDadosSaida.xsc">
       <DependentUpon>dsDadosSaida.xsd</DependentUpon>
     </None>
