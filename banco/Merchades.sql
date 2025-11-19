@@ -1,7 +1,4 @@
-﻿-- Tabelas --
 
-
--- Entrada --
 
 CREATE TABLE PRODUTOS (
 	ID_PRODUTOS int identity primary key, -- Identificação da tabela
@@ -21,6 +18,16 @@ CREATE TABLE FORNECEDOR (
 	ESTADO_FORNECEDOR char (2), -- Estado em que o fornecedor está localizado. Detalhe está em char pois só iremos usar 2 letras para as siglas dos estados exemplo: (RJ, MG, SP, BH...)
 	CEP_FORNECEDOR varchar (8), -- Bairro em que o fornecedor se localiza
 	CNPJ_FORNECEDOR varchar (14) -- Documento da empresa
+);
+
+CREATE TABLE NOTA_FISCAL_FORNECEDOR (
+    ID_NOTA_FISCAL_FORNEC int identity primary key,
+    DATA_EMISSAO date, -- Data que será emitida na compra com o fornecedor
+    VALOR_COMPRA money, -- Quanto foi gasto com o fornecedor
+    COD_NOTA_FORN varchar (50), -- Código da nota fiscal do fornecedor, para dividir e saber qual nota é
+    OBSERVACAO varchar (150), -- Alguma especificação
+	PAGO char(1),
+    ID_FORNECEDOR int foreign key references FORNECEDOR (ID_FORNECEDOR) -- Identificação do fornecedor via id
 );
 
 CREATE TABLE ESTOQUE ( 	
@@ -69,16 +76,6 @@ CREATE TABLE ITENS_NOTA_VENDA (
 	ID_NOTA_VENDA int foreign key references NOTA_FISCAL_VENDA (ID_NOTA_VENDA)
 );
 
-CREATE TABLE NOTA_FISCAL_FORNECEDOR (
-    ID_NOTA_FISCAL_FORNEC int identity primary key,
-    DATA_EMISSAO date, -- Data que será emitida na compra com o fornecedor
-    VALOR_COMPRA money, -- Quanto foi gasto com o fornecedor
-    COD_NOTA_FORN varchar (50), -- Código da nota fiscal do fornecedor, para dividir e saber qual nota é
-    OBSERVACAO varchar (150), -- Alguma especificação
-    ID_FORNECEDOR int foreign key references FORNECEDOR (ID_FORNECEDOR) -- Identificação do fornecedor via id
-);
-);
-
 CREATE TABLE ITENS_NOTA_FORNECEDOR (
     ID_ITENS_NOTA_FORNEC int identity primary key,
     QTD_UNIT_PAC int,
@@ -122,25 +119,6 @@ CREATE TABLE FERIADOS (
     MES int NOT NULL,
     DESCRICAO varchar (100) NOT NULL
 );
-
---View Estoque
-create view RESUMO_ESTOQUE as 
-SELECT 
-    P.NOME_PRODUTOS, 
-    SUM(E.QTD_ESTOQUE) AS QTD_ESTOQUE,
-    P.TIPO_PRODUTOS, 
-    P.TIPO_UNITARIO, 
-   P.PRECO_PRODUTOS, 
-    P.CODIGO_DE_BARRAS
-FROM PRODUTOS P
-INNER JOIN ESTOQUE E ON P.ID_PRODUTOS = E.ID_PRODUTOS
-GROUP BY 
-    P.NOME_PRODUTOS, 
-    P.TIPO_PRODUTOS, 
-    P.TIPO_UNITARIO, 
-    P.PRECO_PRODUTOS, 
-    P.CODIGO_DE_BARRAS;
-
 -- Triggers --
 
 
@@ -152,7 +130,7 @@ ON ITENS_NOTA_FORNECEDOR
 AFTER INSERT
 AS
 BEGIN
-    SET NOCOUNT ON;
+    SET NOCOUNT ON;
 
     -- Variável de controle (boa prática para triggers)
     IF NOT EXISTS(SELECT * FROM inserted) RETURN;
@@ -161,23 +139,23 @@ BEGIN
 
     -- Soma a nova quantidade (QTD_UNIT_PAC) à QTD_ESTOQUE_ADDED existente.
 
-    UPDATE P
-    SET P.QTD_ESTOQUE = P.QTD_ESTOQUE + I.QTD_UNIT_PAC
-    FROM PRODUTOS P
-    INNER JOIN INSERTED I ON P.ID_PRODUTOS = I.ID_PRODUTOS;
+    UPDATE P
+    SET P.QTD_ESTOQUE = P.QTD_ESTOQUE + I.QTD_UNIT_PAC
+    FROM PRODUTOS P
+    INNER JOIN INSERTED I ON P.ID_PRODUTOS = I.ID_PRODUTOS;
 
     INSERT INTO ESTOQUE (
-        QTD_ESTOQUE_ADDED,
-        ID_PRODUTOS,
-        ID_NOTA_FISCAL_FORNEC
-    )
-    SELECT 
-        I.QTD_UNIT_PAC, -- QTD_ESTOQUE_ADDED é o valor da entrada
-        I.ID_PRODUTOS, -- ID do produto
-        I.ID_NOTA_FISCAL_FORNEC -- ID da nota de fornecedor
-    FROM INSERTED I
+        QTD_ESTOQUE_ADDED,
+        ID_PRODUTOS,
+        ID_NOTA_FISCAL_FORNEC
+    )
+    SELECT 
+        I.QTD_UNIT_PAC, -- QTD_ESTOQUE_ADDED é o valor da entrada
+        I.ID_PRODUTOS, -- ID do produto
+        I.ID_NOTA_FISCAL_FORNEC -- ID da nota de fornecedor
+    FROM INSERTED I
     -- Não precisamos da NOTA_FISCAL_FORNECEDOR (NF) aqui, pois todos os campos necessários já estão em INSERTED (I)
-    LEFT JOIN ESTOQUE E ON E.ID_PRODUTOS = I.ID_PRODUTOS
+    LEFT JOIN ESTOQUE E ON E.ID_PRODUTOS = I.ID_PRODUTOS
     
     -- Inserção (Para produtos que NÃO EXISTEM no ESTOQUE)
     
@@ -246,8 +224,8 @@ BEGIN
     -- Se ainda não tiver cliente vinculado à nota
         IF NOT EXISTS (SELECT 1 FROM CLIENTE WHERE CPF_CNPJ_CLIENTE = @CPF_CNPJ)
             BEGIN
-                INSERT INTO CLIENTE (NOME_CLIENTE, CPF_CNPJ_CLIENTE)
-                VALUES (NULL, @CPF_CNPJ);
+                INSERT INTO CLIENTE (CPF_CNPJ_CLIENTE)
+                VALUES (@CPF_CNPJ);
                 PRINT 'Cliente criado com CPF/CNPJ informado.';
             END
             ELSE
@@ -501,16 +479,17 @@ BEGIN
 END;
 
 -- Views de relatório --
-
+GO
 CREATE VIEW
 Vw_RELATORIO_FINANCEIRO_DESPESAS 
 AS SELECT * FROM RELATORIO_FINANCEIRO 
 WHERE TIPO = 'D';
 
+GO
 CREATE VIEW
 Vw_RELATORIO_FINANCEIRO_GANHOS 
 AS SELECT * FROM RELATORIO_FINANCEIRO 
-WHERE TIPO = 'G';
+WHERE TIPO = 'G';
 
 
 -- triggers de relatório --
@@ -613,11 +592,10 @@ GO
 --
 
 
-GO
-CREATE PROCEDURE PR_PagarParcela
-    @ID_PARCELAS INT, -- id na tabela PARCELAS
-    @NUM_PARCELAS VARCHAR(35), -- a primeira, segunda, terceira, etc; Ex: '1,2,3' ou 'ALL' (sim, podem ser múltiplas (ou todas), só por nesse formato)
-    @OBS VARCHAR(255) = NULL -- observação
+CREATE PROCEDURE PR_PagarParcelas
+    @ID_PARCELA INT, -- id na tabela PARCELAS
+    @NUM_PARCELAS VARCHAR(35),
+    @OBS VARCHAR(255) = NULL
 AS
 BEGIN
     SET NOCOUNT ON;
@@ -628,7 +606,7 @@ BEGIN
         SET STATUS = 'Paga',
             DATA_PAGAMENTO = GETDATE(),
             OBSERVACAO = @OBS
-        WHERE ID_PARCELAS = @ID_PARCELAS;
+        WHERE ID_PARCELAS = @ID_PARCELA; -- <-- CORREÇÃO: Usando ID_PARCELAS (FK)
     END
     ELSE
     BEGIN
@@ -636,7 +614,7 @@ BEGIN
         SET STATUS = 'Paga',
             DATA_PAGAMENTO = GETDATE(),
             OBSERVACAO = @OBS
-        WHERE ID_PARCELAS = @ID_PARCELAS
+        WHERE ID_PARCELAS = @ID_PARCELA -- <-- CORREÇÃO: Usando ID_PARCELAS (FK)
           AND NUM_PARCELA IN (
               SELECT value FROM STRING_SPLIT(@NUM_PARCELAS, ',')
           );
@@ -646,47 +624,15 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM DEBITO_PARCELAS
-        WHERE ID_PARCELAS = @ID_PARCELAS AND STATUS <> 'Paga'
+        -- CORREÇÃO: Checa se há alguma parcela PENDENTE referente a este ID da Parcela Mãe
+        WHERE ID_PARCELAS = @ID_PARCELA AND STATUS <> 'Paga' 
     )
         RETURN;
 
     UPDATE PARCELAS
     SET STATUS_GERAL = 'Paga'
-    WHERE ID_PARCELAS = @ID_PARCELAS;
+    WHERE ID_PARCELAS = @ID_PARCELA;
 END;
-
--- Funções --
-
-GO
-CREATE FUNCTION FN_calcPascoa (@Ano INT)
-RETURNS DATE
-AS
-BEGIN
-    DECLARE 
-        @a INT, @b INT, @c INT, @d INT, @e INT,
-        @f INT, @g INT, @h INT, @i INT, @k INT,
-        @L INT, @m INT,
-        @mes INT, @dia INT;
-
-    SET @a = @Ano % 19;
-    SET @b = @Ano / 100;
-    SET @c = @Ano % 100;
-    SET @d = @b / 4;
-    SET @e = @b % 4;
-    SET @f = (@b + 8) / 25;
-    SET @g = (@b - @f + 1) / 3;
-    SET @h = (19 * @a + @b - @d - @g + 15) % 30;
-    SET @i = @c / 4;
-    SET @k = @c % 4;
-    SET @L = (32 + 2 * @e + 2 * @i - @h - @k) % 7;
-    SET @m = (@a + 11 * @h + 22 * @L) / 451;
-    SET @mes = (@h + @L - 7 * @m + 114) / 31;
-    SET @dia = ((@h + @L - 7 * @m + 114) % 31) + 1;
-
-    RETURN DATEFROMPARTS(@Ano, @mes, @dia);
-END;
-GO
-
 
 GO
 CREATE FUNCTION FN_PROXIMO_DIA_UTIL (@Data DATE)
@@ -756,3 +702,6 @@ CHECK (STATUS IN ('Pendente', 'Paga', 'Vencida')); -- pra padronizar os tipos de
 ALTER TABLE PARCELAS
 ADD CONSTRAINT CHK_Status_Geral
 CHECK (STATUS_GERAL IN ('Pendente', 'Paga', 'Vencida'));
+
+
+SELECT * FROM CLIENTE
